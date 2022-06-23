@@ -1,0 +1,141 @@
+Archivo ejecutado... 20-06-2022 11:28:04
+pruebasPDF_sinRutaDestino.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF_sinRutaDestino.pdf
+
+Archivo ejecutado... 20-06-2022 11:28:04
+pruebasPDF_conRutaDestino.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/pruebasPDF_conRutaDestino.pdf
+
+Archivo ejecutado... 20-06-2022 11:30:58
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 11:32:08
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 11:33:34
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 11:39:46
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 12:24:42
+Archivo ejecutado... 20-06-2022 12:25:00
+Archivo ejecutado... 20-06-2022 12:25:29
+Archivo ejecutado... 20-06-2022 12:26:05
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 12:26:56
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 12:27:47
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 12:41:20
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 12:42:25
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 12:47:47
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 12:52:31
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 12:58:08
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 13:01:15
+Archivo ejecutado... 20-06-2022 13:01:44
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 13:18:14
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 14:00:48
+Archivo ejecutado... 20-06-2022 14:08:45
+Archivo ejecutado... 20-06-2022 14:10:31
+Archivo ejecutado... 20-06-2022 14:12:16
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 14:17:05
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 15:25:52
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 15:44:45
+Archivo ejecutado... 20-06-2022 15:46:17
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 15:59:11
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 20-06-2022 16:01:15
+pruebasPDF.pdf CREADO en --> D:/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 01:27:15
+Archivo ejecutado... 23-06-2022 01:28:56
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:20:06
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:20:29
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:20:48
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:22:37
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:27:25
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:28:59
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:32:52
+Archivo ejecutado... 23-06-2022 09:33:15
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:46:19
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:50:38
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:53:15
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:53:41
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:53:53
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:54:08
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:54:21
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:54:36
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:54:52
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:55:20
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:55:32
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 09:57:02
+Archivo ejecutado... 23-06-2022 10:07:23
+Archivo ejecutado... 23-06-2022 10:12:35
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 23-06-2022 10:31:24
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
