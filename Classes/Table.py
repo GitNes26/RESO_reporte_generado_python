@@ -15,6 +15,8 @@ class DataRegisterT:
       """La vaca preñada aborto"""
       self.Lact = NULL
       """Lactancia"""
+      self.BredUnk = NULL
+      """BredUnk"""
       self.Ev_L = NULL
       """..."""
       self.NoEv = NULL
@@ -37,6 +39,8 @@ class RegisterTable:
       """Diferencia del total de las vacas menos las vacas preñadas"""
       self.ConceptAbortRate = 0
       """Porcentaje de vacas preñadas menos los abortos entre el total de vacas"""
+      self.BredUnk = 0
+      """Sumar los datos BredUnk en TRUE"""
       self.CuentaPreg2 = 0
       """Sumar las vacas preñadas según lactancia, no importa si abortaron (total de vacas)"""
 
@@ -57,7 +61,8 @@ class Table:
       self.Column4Name = 'Promedio de AbortRes (%)'
       self.Column5Name = 'Bred Open Sum'
       self.Column6Name = 'Concept Abort Rate (%)'
-      self.Column7Name = 'Cuenta de # Preg2'
+      self.Column7Name = 'BredUnk'
+      self.Column8Name = 'Cuenta de # Preg2'
       self.Registers = []
       
       self.TotalPromedioPreg = 0
@@ -65,6 +70,7 @@ class Table:
       self.TotalPromedioAbortRes = 0
       self.TotalCuentaPreg2 = 0
       self.TotalBredOpenSum = 0
+      self.TotalBredUnk = 0
       self.TotalConceptAbortRate = 0
    
    
@@ -85,6 +91,8 @@ def AddRegisterGroupedbyLactOnlyEv(table, register_list, groupby, filter, groupb
          register.CowsPreg += 1
       if item.Abort==True:
          register.CowsAbort += 1
+      if item.BredUnk==True:
+         register.BredUnk += 1
       register.CuentaPreg2 += 1
       
    if register.CuentaPreg2 > 0:
@@ -123,14 +131,12 @@ def AddRegisterGroupedbyLactMuchEv(table, register_list, groupby_list, filter, g
             register.CowsPreg += 1
          if item.Abort==True:
             register.CowsAbort += 1
+         if item.BredUnk==True:
+            register.BredUnk += 1
          register.CuentaPreg2 += 1
          
       if register.CuentaPreg2 > 0:
          register.BredOpenSum = register.CuentaPreg2 - register.CowsPreg
-         # if lact <= groupby_lact_or_more:
-         #    register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
-         #    register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
-         #    register.ConceptAbortRate = Mean((register.CowsPreg-register.CowsAbort), register.CuentaPreg2)
       
       if groupby_lact is False:
          table.Registers.append(register)
@@ -157,7 +163,7 @@ def GroupRegisterGroupedbyLactByFilter(table, register_list, groupby_list, group
          register.SumaPreg += item.SumaPreg
          register.CuentaPreg2 += item.CuentaPreg2
          register.BredOpenSum += item.BredOpenSum
-
+         register.BredUnk += item.BredUnk
          register.ConceptAbortRate += item.ConceptAbortRate
          register.PromedioPreg += item.PromedioPreg
          register.PromedioAbortRes += item.PromedioAbortRes
@@ -188,6 +194,8 @@ def AddRegisterOnlyEv(table, register_list, groupby, filter):
          register.CowsPreg += 1
       if item.Abort==True:
          register.CowsAbort += 1
+      if item.BredUnk==True:
+         register.BredUnk += 1
       register.CuentaPreg2 += 1
       
    if register.CuentaPreg2 > 0:
@@ -213,13 +221,10 @@ def AddRegisterMuchEv(table, register_list, groupby_list, filter):
             register.CowsPreg += 1
          if item.Abort==True:
             register.CowsAbort += 1
+         if item.BredUnk==True:
+            register.BredUnk += 1
          register.CuentaPreg2 += 1
          
-      # if register.CuentaPreg2 > 0:
-      #    register.BredOpenSum = register.CuentaPreg2 - register.CowsPreg
-      #    register.ConceptAbortRate = Mean((register.CowsPreg-register.CowsAbort), register.CuentaPreg2)
-      #    register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
-      #    register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
       table.Registers.append(register)
    
 def GroupRegisterByFilter(table, register_list, groupby_list):
@@ -236,7 +241,7 @@ def GroupRegisterByFilter(table, register_list, groupby_list):
          register.SumaPreg += item.SumaPreg
          register.CuentaPreg2 += item.CuentaPreg2
          register.BredOpenSum += item.BredOpenSum
-
+         register.BredUnk += item.BredUnk
          register.ConceptAbortRate += item.ConceptAbortRate
          register.PromedioPreg += item.PromedioPreg
          register.PromedioAbortRes += item.PromedioAbortRes
@@ -257,6 +262,7 @@ def Totals(tables):
          table.TotalSumaPreg += register.SumaPreg
          table.TotalCuentaPreg2 += register.CuentaPreg2
          table.TotalBredOpenSum += register.BredOpenSum
+         table.TotalBredUnk += register.BredUnk
          total_preg += register.CowsPreg
          total_abort += register.CowsAbort
 

@@ -54,46 +54,46 @@ class PDF(FPDF):
       FontStyle(self, 'Arial', 'B')
       BackgroundColor(self, 'blue_header')
       TextColor(self, 'white')
-      self. multi_cell(w=0, h=8, txt=str(text), border=0, fill=1, align='C')
+      self.multi_cell(w=0, h=8, txt=str(text), border=0, fill=1, align='C')
       
    def TitleColumn(self, text='', width=0, border=0):
       FontSize(self, self.text_title_size)
       FontStyle(self, 'Arial', 'B')
       BackgroundColor(self, 'white')
       TextColor(self, 'black')
-      self. cell(w=width, h=8, txt=str(text), border=border, fill=1, align='C')
+      self.cell(w=width, h=8, txt=str(text), border=border, fill=1, align='C')
 
    def LastTitleColumn(self, text='', width=0, border=0):
       FontSize(self, self.text_title_size)
       FontStyle(self, 'Arial', 'B')
       BackgroundColor(self, 'white')
       TextColor(self, 'black')
-      self. multi_cell(w=width, h=8, txt=str(text), border=border, fill=1, align='C')
+      self.multi_cell(w=width, h=8, txt=str(text), border=border, fill=1, align='C')
    
    def Column(self, text='', width=0, border=0):
       FontSize(self, self.text_size)
       FontStyle(self, 'Arial', '')
       BackgroundColor(self, 'full_white')
       TextColor(self, 'black')
-      self. cell(w=width, h=5, txt=str(text), border=border, fill=1, align='C')
+      self.cell(w=width, h=5, txt=str(text), border=border, fill=1, align='C')
 
    def LastColumn(self, text='', width=0, border=0):
       FontSize(self, self.text_size)
       FontStyle(self, 'Arial', '')
       BackgroundColor(self, 'full_white')
       TextColor(self, 'black')
-      self. multi_cell(w=width, h=5, txt=str(text), border=border, fill=1, align='C')
+      self.multi_cell(w=width, h=5, txt=str(text), border=border, fill=1, align='C')
       
    def FooterColumn(self, text='', width=0, border=0):
       FontSize(self, self.text_title_size)
       FontStyle(self, 'Arial', 'B')
       BackgroundColor(self, 'white')
       TextColor(self, 'black')
-      self. cell(w=width, h=8, txt=str(text), border=border, fill=1, align='C')
+      self.cell(w=width, h=8, txt=str(text), border=border, fill=1, align='C')
 
    def LastFooterColumn(self, text='', width=0, border=0):
       FontSize(self, self.text_title_size)
       FontStyle(self, 'Arial', 'B')
       BackgroundColor(self, 'white')
       TextColor(self, 'black')
-      self. multi_cell(w=width, h=8, txt=str(text), border=border, fill=1, align='C')
+      self.multi_cell(w=width, h=8, txt=str(text), border=border, fill=1, align='C')

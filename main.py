@@ -5,12 +5,10 @@ from pymysql import NULL #pip install PyMySQL
 from collections import defaultdict
 import csv
 
-from Classes.Computation import Mean
 from Classes.Register import Register as Register
 from Classes.Table import *
 from ConvertPDF.PDF import PDF as PDF
 
-# filename = NULL
 wb = openpyxl.Workbook()
 data_sheet = wb.active
 data_sheet.title = "data"
@@ -28,6 +26,8 @@ class CreateReport():
    def __init__ (self, path_file, output_filename, output_path_file=NULL):
       
       self.pdf = PDF()
+      self.pdf.set_left_margin(5)
+      self.pdf.set_right_margin(5)
       self.listRegister = []
       
       # Registramos el historial de ejecuciones en el siguiente archivo .txt
@@ -57,6 +57,7 @@ class CreateReport():
             dataRegisterT.Preg = item.NoPreg
             dataRegisterT.Abort = item.AbortRes
             dataRegisterT.Lact = item.LACT
+            dataRegisterT.BredUnk = item.BredUnk
             dataRegisterT.Ev_L = item.Ev_L
             dataRegisterT.NoEv = item.NoEv
             
@@ -99,7 +100,7 @@ class CreateReport():
                            
       
       def GeneratePDF(tables):
-         column_size = 200 / 7 #Ancho de tabla (200) entre Numero de columnas (7)
+         column_size = 205 / 8 #Ancho de tabla (200) entre Numero de columnas (7)
          for table in tables:          
             self.pdf.TableHeader(table.TitleTable)
             self.pdf.TitleColumn(table.Column1Name,column_size,'R')
@@ -108,7 +109,8 @@ class CreateReport():
             self.pdf.TitleColumn(table.Column4Name,column_size,'R')
             self.pdf.TitleColumn(table.Column5Name,column_size,'R')
             self.pdf.TitleColumn(table.Column6Name,column_size,'R')
-            self.pdf.LastTitleColumn(table.Column7Name,0,'')
+            self.pdf.TitleColumn(table.Column7Name,column_size,'R')
+            self.pdf.LastTitleColumn(table.Column8Name,0,'')
             for register in table.Registers:
                self.pdf.Column(f"{register.EtiquetaDeFila}",column_size,'R')
                self.pdf.Column(f"{register.PromedioPreg}%",column_size,'R')
@@ -116,6 +118,7 @@ class CreateReport():
                self.pdf.Column(f"{register.PromedioAbortRes}%",column_size,'R')
                self.pdf.Column(f"{register.BredOpenSum}",column_size,'R')
                self.pdf.Column(f"{register.ConceptAbortRate}%",column_size,'R')
+               self.pdf.Column(f"{register.BredUnk}",column_size,'R')
                self.pdf.LastColumn(f"{register.CuentaPreg2}",0,'')
             self.pdf.FooterColumn('TOTALES',column_size,'R')
             self.pdf.FooterColumn(f"{table.TotalPromedioPreg}%",column_size,'R')
@@ -123,11 +126,12 @@ class CreateReport():
             self.pdf.FooterColumn(f"{table.TotalPromedioAbortRes}%",column_size,'R')
             self.pdf.FooterColumn(f"{table.TotalBredOpenSum}",column_size,'R')
             self.pdf.FooterColumn(f"{table.TotalConceptAbortRate}%",column_size,'R')
+            self.pdf.FooterColumn(f"{table.TotalBredUnk}",column_size,'R')
             self.pdf.LastFooterColumn(f"{table.TotalCuentaPreg2}",0,'')
             self.pdf.ln(11)        
       
          
-      if len(path_file) > 0:            
+      if len(path_file) > 0:
          with open(path_file) as csvfile:
             reader = csv.DictReader(csvfile)
             for column in reader:
@@ -157,7 +161,7 @@ class CreateReport():
                register.Other2ID = column['Other2ID']
                register.Other5ID = column['Other5ID']
                register.ConceptRate = column['ConceptRate']
-               register.BredUnk = column['BredUnk']
+               register.BredUnk = bool(True if column['BredUnk'].upper() == 'TRUE' else False)
                register.EvSireBreed = column['EvSireBreed']
                register.EvSireStudCd = column['EvSireStudCd']
                register.evWeek = column['evWeek']
@@ -166,7 +170,7 @@ class CreateReport():
                   
                self.listRegister.append(register)
 
-         # Instantiation of inherited class
+         # Agregar pagina al PDF
          self.pdf.alias_nb_pages()
          self.pdf.add_page()
          GroupBy()
@@ -183,9 +187,6 @@ class CreateReport():
       log_file.close()     
       
                
-         
-         
-         
 
 if __name__ == '__main__':
    # report1 = CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/prueba.csv', 'pruebasPDF', NULL)
