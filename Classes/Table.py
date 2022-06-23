@@ -59,7 +59,7 @@ class Table:
       self.Column6Name = 'Concept Abort Rate (%)'
       self.Column7Name = 'Cuenta de # Preg2'
       self.Registers = []
-      # self.TotalRegisters = 0
+      
       self.TotalPromedioPreg = 0
       self.TotalSumaPreg = 0
       self.TotalPromedioAbortRes = 0
@@ -71,7 +71,7 @@ class Table:
    
    
 def AddRegisterGroupedbyLactOnlyEv(table, register_list, groupby, filter, groupby_lact, register_grouped, last_lact):
-   """Caluclar los campos de la tabla"""
+   """Caluclar los campos de la tabla de un solo filtro (para la tabla agrupados por Lact)"""
    
    register = RegisterTable()
    register.EtiquetaDeFila = groupby
@@ -99,7 +99,7 @@ def AddRegisterGroupedbyLactOnlyEv(table, register_list, groupby, filter, groupb
       table.Registers.append(register)
 
 def AddRegisterGroupedbyLactMuchEv(table, register_list, groupby_list, filter, groupby_lact, register_grouped, last_lact, groupby_lact_or_more, last_env):
-   """Caluclar los campos de la tabla"""
+   """Caluclar los campos de la tabla con más de un filtro (para la tabla agrupados por Lact)"""
    
    for lact in groupby_list:         
       register = RegisterTable()
@@ -138,7 +138,7 @@ def AddRegisterGroupedbyLactMuchEv(table, register_list, groupby_list, filter, g
          table.Registers.append(register)
 
 def GroupRegisterGroupedbyLactByFilter(table, register_list, groupby_list, groupby_lact, register_grouped, last_lact, groupby_lact_or_more):
-   """Agrupar los registros por filtro y Caluclar los campos de la tabla"""
+   """Agrupar los registros por filtro( con más de un filtro) y Caluclar los campos de la tabla (para la tabla agrupados por Lact)"""
    
    registers_groupedby_lact = defaultdict(list)
    for item in register_list:
@@ -176,7 +176,7 @@ def GroupRegisterGroupedbyLactByFilter(table, register_list, groupby_list, group
 
 
 def AddRegisterOnlyEv(table, register_list, groupby, filter):
-   """Caluclar los campos de la tabla"""
+   """Caluclar los campos de la tabla de un solo filtro"""
    
    register = RegisterTable()
    register.EtiquetaDeFila = groupby
@@ -198,7 +198,7 @@ def AddRegisterOnlyEv(table, register_list, groupby, filter):
    table.Registers.append(register)
  
 def AddRegisterMuchEv(table, register_list, groupby_list, filter):
-   """Caluclar los campos de la tabla"""
+   """Caluclar los campos de la tabla con más de un filtro"""
    
    for groupby in groupby_list:         
       register = RegisterTable()
@@ -223,7 +223,7 @@ def AddRegisterMuchEv(table, register_list, groupby_list, filter):
       table.Registers.append(register)
    
 def GroupRegisterByFilter(table, register_list, groupby_list):
-   """Agrupar los registros por filtro y Caluclar los campos de la tabla"""
+   """Agrupar los registros por filtro( con más de un filtro) y Caluclar los campos de la tabla"""
    
    registers_grouped = defaultdict(list)
    for item in register_list:
@@ -248,6 +248,8 @@ def GroupRegisterByFilter(table, register_list, groupby_list):
       table.Registers.append(register)
          
 def Totals(tables):
+   """Calcular Totales de tabla"""
+
    total_preg = 0
    total_abort = 0
    for table in tables:
@@ -265,7 +267,8 @@ def Totals(tables):
       
 
 def AddTablesGroupbyLactFilterEv(grouped_registers, lact_list, ev_list):       
-   print('AddTablesGroupbyLactFilterEv():')
+   """Agregar registros a la tabla agrupados por LACT y filtrados por Ev"""
+   # print('AddTablesGroupbyLactFilterEv():')
    tables = []
    mas_de_un_ev = False
    groupby_lact_or_more = 3
@@ -275,7 +278,8 @@ def AddTablesGroupbyLactFilterEv(grouped_registers, lact_list, ev_list):
    last_env = ev_list[-1]
 
    for ev in ev_list:
-      mas_de_un_ev = False
+      mas_de_un_ev = False #Bandera para agrupar registros que corresponden a más de un filtro
+
       if ev == 1:
          table = Table()
          table.TitleTable = f"Datos agrupados por Lact y filtrados por #Ev {ev}"            
@@ -290,8 +294,9 @@ def AddTablesGroupbyLactFilterEv(grouped_registers, lact_list, ev_list):
          table = Table()
          temporal_table = Table()
          continue
-      # else:
-      if 'table' in locals():
+      
+      
+      if 'table' in locals(): #Condicion para crear tabla en caso de que no haya entrado al evento 1
          if len(table.Registers) == 0 and len(temporal_table.Registers) == 0:
             table = Table()
             temporal_table = Table()
@@ -304,19 +309,17 @@ def AddTablesGroupbyLactFilterEv(grouped_registers, lact_list, ev_list):
       groupby_lact = False      
       AddRegisterGroupedbyLactMuchEv(temporal_table, grouped_registers, lact_list, ev, groupby_lact, register_grouped, last_lact, groupby_lact_or_more, last_env)
 
-   if mas_de_un_ev:
-      temporal_table.Registers[-1].PromedioPreg = Mean(temporal_table.Registers[-1].SumaPreg, temporal_table.Registers[-1].CuentaPreg2)
-      temporal_table.Registers[-1].PromedioAbortRes = Mean(temporal_table.Registers[-1].CowsAbort, temporal_table.Registers[-1].CuentaPreg2)
-      temporal_table.Registers[-1].ConceptAbortRate = Mean((temporal_table.Registers[-1].CowsPreg-temporal_table.Registers[-1].CowsAbort), temporal_table.Registers[-1].CuentaPreg2)
+   if mas_de_un_ev: #Este código se ejecuta para agrupar los registros con más de un evento, pasamos los registros de la tabla temporal a la tabla final ya agrupados
       GroupRegisterGroupedbyLactByFilter(table, temporal_table.Registers, lact_list, groupby_lact, register_grouped, last_lact, groupby_lact_or_more)
       tables.append(table)
-   Totals(tables)
-   register_grouped = RegisterTable()
+   Totals(tables) #Calculamos los totales
+   register_grouped = RegisterTable() #Limpiamos la variable para asegurarnos de que no se agreguen datos anteriores
    return tables
    
 
 def AddTablesGroupbyBredReasFilterLact(grouped_registers, bredReas_list, lact_list):       
-   print('AddTablesGroupbyBredReasFilterLact():')
+   """Agregar registros a la tabla agrupados por BredReas y filtrados por LACT"""
+   # print('AddTablesGroupbyBredReasFilterLact():')
    tables = []
    mas_de_un_ev = False
 
@@ -363,7 +366,8 @@ def AddTablesGroupbyBredReasFilterLact(grouped_registers, bredReas_list, lact_li
    
       
 def AddTablesGroupbySireBullFilterLact(grouped_registers, sireBull_list, lact_list):       
-   print('AddTablesGroupbySireBullFilterLact():')
+   """Agregar registros a la tabla agrupados por SireBull y filtrados por LACT"""
+   # print('AddTablesGroupbySireBullFilterLact():')
    tables = []
    mas_de_un_ev = False
 
@@ -400,7 +404,8 @@ def AddTablesGroupbySireBullFilterLact(grouped_registers, sireBull_list, lact_li
 
 
 def AddTablesGroupbyEvSireStudCdFilterLact(grouped_registers, evSireStudCd_list, lact_list):       
-   print('AddTablesGroupbyEvSireStudCdFilterLact():')
+   """Agregar registros a la tabla agrupados por EvSireStudCd y filtrados por LACT"""
+   # print('AddTablesGroupbyEvSireStudCdFilterLact():')
    tables = []
    mas_de_un_ev = False
 
@@ -437,7 +442,8 @@ def AddTablesGroupbyEvSireStudCdFilterLact(grouped_registers, evSireStudCd_list,
 
 
 def AddTablesGroupbyTechFilterLact(grouped_registers, tech_list, lact_list):       
-   print('AddTablesGroupbyTechFilterLact():')
+   """Agregar registros a la tabla agrupados por Tech y filtrados por LACT"""
+   # print('AddTablesGroupbyTechFilterLact():')
    tables = []
    mas_de_un_ev = False
 

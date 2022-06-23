@@ -7,7 +7,7 @@ import csv
 
 from Classes.Computation import Mean
 from Classes.Register import Register as Register
-from Classes.Table import AddTablesGroupbyBredReasFilterLact, AddTablesGroupbyEvSireStudCdFilterLact, AddTablesGroupbyLactFilterEv, AddTablesGroupbySireBullFilterLact, AddTablesGroupbyTechFilterLact, DataRegisterT
+from Classes.Table import *
 from ConvertPDF.PDF import PDF as PDF
 
 # filename = NULL
@@ -34,10 +34,11 @@ class CreateReport():
       log_file = open("./log.txt", "a")
       fecha_ejecucion = moment.now().format("DD-MM-YYYY HH:mm:ss")
       log_file.write(f"Archivo ejecutado... {fecha_ejecucion}\n")
+      print(f"Archivo ejecutado... {fecha_ejecucion}")
 
 
       def GroupBy():
-         print('AgruparPorLactancia():')
+         # print('AgruparPorLactancia():')
          ev_list = []
          lact_list = []
          bredReas_list = []
