@@ -1,5 +1,5 @@
 # Preg,AbortRes,SireBull,LACT,Ev#L,#Ev,Date,EvGap,Tech,Pen,bred.sexed,BredReas,DIM@E,AnId,FarmLoc,AnOwner,BRD,Age(da),Other2ID,Other5ID,ConceptRate,BredUnk,EvSireBreed,EvSireStudCd,evWeek,Age1BLT,Total
-0,0,551HO4429,1,1,1,17/03/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,81,6448213,Red Rock Dairy,Red Rock Dairy,Holstein,729,,,0,false,HO,551,13/03/2022,381,total
+0,0,551HO4429,1,1,1,17/03/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,81,6448213,Red Rock Dairy,Red Rock Dairy,Holstein,729,,,0,FALSE,HO,551,13/03/2022,381,total
 1,0,551HO4429,1,1,1,17/03/2022,,Adrian Medrano,1,1,Double Ovsynch 2PgF,81,6144113,Red Rock Dairy,Red Rock Dairy,Holstein,745,234,,100,FALSE,HO,551,13/03/2022,386,total
 1,0,551AN1609,2,1,1,17/03/2022,,Rigo Trejo,2,1,Double Ovsynch 2PgF,84,4341292,Red Rock Dairy,Red Rock Dairy,Holstein,1154,,,100,FALSE,AN,551,13/03/2022,390,total
 0,0,551AN1609,2,1,1,17/03/2022,,Martin Medrano,2,1,Double Ovsynch 2PgF,84,3792227,Red Rock Dairy,Red Rock Dairy,Holstein,1222,,,0,FALSE,AN,551,13/03/2022,434,total
@@ -341,12 +341,6 @@
 0,0,551HO4355,1,1,1,21/04/2022,,Martin Medrano,1,1,Double Ovsynch 2PgF,77,5809262,Red Rock Dairy,Red Rock Dairy,Holstein,812,345,,0,FALSE,HO,551,17/04/2022,411,total
 0,0,151AN1692,5,1,1,21/04/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,80,3155296,Red Rock Dairy,Red Rock Dairy,Holstein,2410,,,0,FALSE,AN,151,17/04/2022,842,total
 0,0,551AN1609,2,1,1,21/04/2022,,Noe Gonzalez,2,1,Double Ovsynch 2PgF,80,5040656,Red Rock Dairy,Red Rock Dairy,Holstein,996,135,,0,FALSE,AN,551,17/04/2022,380,total
-1,0,151AN1692,3,2,2,17/03/2022,126,Martin Medrano,10,1,Ovsynch,210,3156126,Red Rock Dairy,Red Rock Dairy,Holstein,1562,,,100,FALSE,AN,151,13/03/2022,360,total
-0,0,151AN1692,2,2,2,17/03/2022,70,Adrian Medrano,9,1,Ovsynch,149,3735686,Red Rock Dairy,Red Rock Dairy,Holstein,1234,,,0,FALSE,AN,151,13/03/2022,384,total
-1,0,151AN1692,3,3,3,17/03/2022,56,Martin Medrano,10,1,Ovsynch,169,3156194,Red Rock Dairy,Red Rock Dairy,Holstein,1558,,,100,FALSE,AN,151,13/03/2022,362,total
-1,0,551HO4429,1,2,2,17/03/2022,49,Martin Medrano,1,1,Ovsynch,124,5841940,Red Rock Dairy,Red Rock Dairy,Holstein,803,,,100,FALSE,HO,551,13/03/2022,387,total
-0,0,551AN1609,2,2,2,17/03/2022,49,Rigo Trejo,2,1,Ovsynch,130,3159903,Red Rock Dairy,Red Rock Dairy,Holstein,1321,,,0,FALSE,AN,551,13/03/2022,387,total
-0,0,551AN1609,2,3,3,17/03/2022,56,Martin Medrano,2,1,Ovsynch,172,3159935,Red Rock Dairy,Red Rock Dairy,Holstein,1329,,,0,FALSE,AN,551,13/03/2022,401,total
 0,0,151AN1692,7,1,1,21/04/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,79,3151904,Red Rock Dairy,Red Rock Dairy,Holstein,3028,,,0,FALSE,AN,151,17/04/2022,783,total
 0,0,151AN1692,5,1,1,21/04/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,79,3155612,Red Rock Dairy,Red Rock Dairy,Holstein,2842,,,0,FALSE,AN,151,17/04/2022,1162,total
 1,1,551HO4355,1,1,1,21/04/2022,,Noe Gonzalez,1,1,Double Ovsynch 2PgF,76,6363300,Red Rock Dairy,Red Rock Dairy,Holstein,735,234,,100,FALSE,HO,551,17/04/2022,390,total
@@ -386,10 +380,6 @@
 1,0,551HO4355,1,1,1,28/04/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,80,6363301,Red Rock Dairy,Red Rock Dairy,Holstein,742,234,,100,FALSE,HO,551,24/04/2022,389,total
 0,0,551h0o4429,0,1,1,11/03/2022,,Rigo Trejo,15,0,Chalk,,8486473,Red Rock Dairy,Red Rock Dairy,Holstein,380,666,,0,FALSE,,,06/03/2022,380,total
 0,0,551h0o4429,0,1,1,11/03/2022,,Rigo Trejo,15,0,Chalk,,8584994,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,0,FALSE,,,06/03/2022,384,total
-0,0,551h0o4429,0,3,3,11/03/2022,19,Rigo Trejo,14,0,Chalk,,8196491,Red Rock Dairy,Red Rock Dairy,Holstein,428,,,0,FALSE,,,06/03/2022,391,total
-0,0,551h0o4429,0,2,2,11/03/2022,19,Rigo Trejo,14,0,Chalk,,8206764,Red Rock Dairy,Red Rock Dairy,Holstein,426,,,,TRUE,,,06/03/2022,407,total
-0,0,551h0o4429,0,3,3,11/03/2022,20,Rigo Trejo,14,0,Chalk,,8223833,Red Rock Dairy,Red Rock Dairy,Holstein,422,,,0,FALSE,,,06/03/2022,383,total
-0,0,551AN1609,0,3,3,11/03/2022,32,Rigo Trejo,14,1,Chalk,,8360926,Red Rock Dairy,Red Rock Dairy,Holstein,454,,,0,FALSE,AN,551,06/03/2022,401,total
 1,0,151AN1692,2,1,1,28/04/2022,,Noe Gonzalez,10,1,Double Ovsynch 2PgF,82,4280640,Red Rock Dairy,Red Rock Dairy,Holstein,1185,,,100,FALSE,AN,151,24/04/2022,386,total
 0,0,151AN1692,2,1,1,28/04/2022,,Rigo Trejo,10,1,Double Ovsynch 2PgF,82,3800909,Red Rock Dairy,Red Rock Dairy,Holstein,1258,,,0,FALSE,AN,151,24/04/2022,389,total
 0,0,151AN1692,2,1,1,28/04/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,82,4751223,Red Rock Dairy,Red Rock Dairy,Holstein,1095,234,,0,FALSE,AN,151,24/04/2022,386,total
@@ -399,10 +389,7 @@
 1,0,551HO4355,1,1,1,28/04/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,79,5881526,Red Rock Dairy,Red Rock Dairy,Holstein,831,234,,100,FALSE,HO,551,24/04/2022,387,total
 1,0,151AN1692,2,1,1,28/04/2022,,Noe Gonzalez,10,1,Double Ovsynch 2PgF,82,4769148,Red Rock Dairy,Red Rock Dairy,Holstein,1094,561,,100,FALSE,AN,151,24/04/2022,385,total
 1,0,551HO4355,1,1,1,28/04/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,79,6154661,Red Rock Dairy,Red Rock Dairy,Holstein,781,234,,100,FALSE,HO,551,24/04/2022,386,total
-1,0,151AN1692,0,5,5,12/03/2022,24,Rigo Trejo,14,0,Chalk,,8035128,Red Rock Dairy,Red Rock Dairy,Holstein,471,,,100,FALSE,AN,151,06/03/2022,384,total
 0,0,551h0o4429,0,1,1,12/03/2022,,Rigo Trejo,14,0,Chalk,,8553603,Red Rock Dairy,Red Rock Dairy,Holstein,391,,,0,FALSE,,,06/03/2022,391,total
-0,0,551AN1609,0,2,2,12/03/2022,19,Rigo Trejo,14,1,Chalk,,8597695,Red Rock Dairy,Red Rock Dairy,Holstein,407,666,,0,FALSE,AN,551,06/03/2022,388,total
-0,0,151AN1692,0,5,5,12/03/2022,40,Rigo Trejo,14,0,Chalk,,7815210,Red Rock Dairy,Red Rock Dairy,Holstein,490,,,0,FALSE,AN,151,06/03/2022,389,total
 0,0,551h0o4429,0,1,1,12/03/2022,,Rigo Trejo,14,0,Chalk,,8618359,Red Rock Dairy,Red Rock Dairy,Holstein,403,,,0,FALSE,,,06/03/2022,403,total
 1,0,551h0o4429,0,1,1,12/03/2022,,Rigo Trejo,14,0,Chalk,,8480150,Red Rock Dairy,Red Rock Dairy,Holstein,381,,,100,FALSE,,,06/03/2022,381,total
 0,0,551AN1609,1,1,1,28/04/2022,,Rigo Trejo,5,1,Double Ovsynch 2PgF,78,6364852,Red Rock Dairy,Red Rock Dairy,Holstein,742,126,,0,FALSE,AN,551,24/04/2022,391,total
@@ -410,16 +397,11 @@
 0,0,551HO4355,1,1,1,28/04/2022,,Martin Medrano,1,1,Double Ovsynch 2PgF,78,6474073,Red Rock Dairy,Red Rock Dairy,Holstein,750,345,,0,FALSE,HO,551,24/04/2022,386,total
 0,0,151AN1692,3,1,1,28/04/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,81,3707610,Red Rock Dairy,Red Rock Dairy,Holstein,1447,,,0,FALSE,AN,151,24/04/2022,389,total
 1,0,151AN1692,4,1,1,28/04/2022,,Rigo Trejo,2,1,Double Ovsynch 2PgF,81,3157455,Red Rock Dairy,Red Rock Dairy,Holstein,1765,,,100,FALSE,AN,151,24/04/2022,357,total
-0,0,551h0o4429,0,2,2,13/03/2022,19,Rigo Trejo,14,0,Chalk,,8605319,Red Rock Dairy,Red Rock Dairy,Holstein,407,,,0,FALSE,,,13/03/2022,388,total
 0,0,551HO4425,0,1,1,13/03/2022,,Rigo Trejo,14,1,Chalk,,8458487,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,0,FALSE,HO,551,13/03/2022,384,total
 1,0,551h0o4429,0,1,1,13/03/2022,,Rigo Trejo,15,0,Chalk,,8580686,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,13/03/2022,388,total
 0,0,551h0o4429,0,1,1,13/03/2022,,Hernan Roque,14,0,Chalk,,8486474,Red Rock Dairy,Red Rock Dairy,Holstein,382,,,0,FALSE,,,13/03/2022,382,total
-0,0,551h0o4429,0,2,2,13/03/2022,22,Rigo Trejo,14,0,Chalk,,8196503,Red Rock Dairy,Red Rock Dairy,Holstein,430,,,,TRUE,,,13/03/2022,408,total
-1,0,551AN1609,0,3,3,13/03/2022,18,Rigo Trejo,14,1,Chalk,,8373891,Red Rock Dairy,Red Rock Dairy,Holstein,453,,,100,FALSE,AN,551,13/03/2022,397,total
 0,0,551HO4425,0,1,1,13/03/2022,,Rigo Trejo,14,1,Chalk,,8475511,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,0,FALSE,HO,551,13/03/2022,384,total
 0,0,551h0o4429,0,1,1,13/03/2022,,Hernan Roque,14,0,Chalk,,8584996,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,0,FALSE,,,13/03/2022,386,total
-1,0,551AN1609,0,3,3,13/03/2022,22,Rigo Trejo,14,1,Chalk,,8300413,Red Rock Dairy,Red Rock Dairy,Holstein,438,666,,100,FALSE,AN,551,13/03/2022,396,total
-0,0,551h0o4429,0,3,3,13/03/2022,21,Rigo Trejo,14,0,Chalk,,8205879,Red Rock Dairy,Red Rock Dairy,Holstein,429,,,0,FALSE,,,13/03/2022,387,total
 0,0,551AN1609,1,1,1,28/04/2022,,Noe Gonzalez,2,1,Double Ovsynch 2PgF,77,6456634,Red Rock Dairy,Red Rock Dairy,Holstein,760,246,,0,FALSE,AN,551,24/04/2022,386,total
 0,0,551HO4355,1,1,1,28/04/2022,,Martin Medrano,1,1,Double Ovsynch 2PgF,77,6379708,Red Rock Dairy,Red Rock Dairy,Holstein,732,345,,0,FALSE,HO,551,24/04/2022,387,total
 0,0,151AN1692,2,1,1,28/04/2022,,Noe Gonzalez,10,1,Double Ovsynch 2PgF,80,4608212,Red Rock Dairy,Red Rock Dairy,Holstein,1123,345,,0,FALSE,AN,151,24/04/2022,385,total
@@ -428,13 +410,9 @@
 1,0,151AN1692,2,1,1,28/04/2022,,Noe Gonzalez,10,1,Double Ovsynch 2PgF,80,5176168,Red Rock Dairy,Red Rock Dairy,Holstein,1062,135,,100,FALSE,AN,151,24/04/2022,387,total
 0,0,551HO4425,0,1,1,14/03/2022,,Rigo Trejo,14,1,Chalk,,8479987,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,0,FALSE,HO,551,13/03/2022,383,total
 0,0,551h0o4429,0,1,1,14/03/2022,,Rigo Trejo,14,0,Chalk,,8486487,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,0,FALSE,,,13/03/2022,383,total
-0,0,151AN1692,0,4,4,14/03/2022,19,Rigo Trejo,14,0,Chalk,,8272173,Red Rock Dairy,Red Rock Dairy,Holstein,446,,,0,FALSE,AN,151,13/03/2022,382,total
-0,0,551h0o4429,0,2,2,14/03/2022,20,Rigo Trejo,14,0,Chalk,,8597684,Red Rock Dairy,Red Rock Dairy,Holstein,409,,,0,FALSE,,,13/03/2022,389,total
 1,0,551h0o4429,0,1,1,14/03/2022,,Rigo Trejo,14,0,Chalk,,8458478,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,,,13/03/2022,386,total
-0,0,551h0o4429,0,2,2,14/03/2022,24,Rigo Trejo,14,0,Chalk,,8637383,Red Rock Dairy,Red Rock Dairy,Holstein,404,,,0,FALSE,,,13/03/2022,380,total
 1,0,551HO4425,0,1,1,14/03/2022,,Rigo Trejo,14,1,Chalk,,8475495,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,100,FALSE,HO,551,13/03/2022,385,total
 1,0,551HO4425,0,1,1,14/03/2022,,Rigo Trejo,14,1,Chalk,,8584995,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,13/03/2022,387,total
-0,0,551h0o4429,0,3,3,14/03/2022,22,Rigo Trejo,14,0,Chalk,,8218918,Red Rock Dairy,Red Rock Dairy,Holstein,425,,,0,FALSE,,,13/03/2022,383,total
 0,0,551h0o4429,0,1,1,14/03/2022,,Rigo Trejo,14,0,Chalk,,8580696,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,0,FALSE,,,13/03/2022,388,total
 0,0,551h0o4429,0,1,1,14/03/2022,,Rigo Trejo,14,0,Chalk,,8458474,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,0,FALSE,,,13/03/2022,386,total
 0,0,551h0o4429,0,1,1,14/03/2022,,Rigo Trejo,14,0,Chalk,,10176708,Red Rock Dairy,Red Rock Dairy,Holstein,367,,,0,FALSE,,,13/03/2022,367,total
@@ -448,85 +426,7 @@
 0,0,551h0o4429,0,1,1,14/03/2022,,Rigo Trejo,15,0,Chalk,,8585004,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,0,FALSE,,,13/03/2022,386,total
 1,0,551AN1609,0,1,1,14/03/2022,,Rigo Trejo,14,1,Chalk,,8580703,Red Rock Dairy,Red Rock Dairy,Holstein,388,666,,100,FALSE,AN,551,13/03/2022,388,total
 0,0,551HO4425,0,1,1,14/03/2022,,Rigo Trejo,14,1,Chalk,,8582457,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,0,FALSE,HO,551,13/03/2022,388,total
-1,0,151AN1692,5,2,2,17/03/2022,35,Adrian Medrano,9,1,Lut to Breed,116,3152160,Red Rock Dairy,Red Rock Dairy,Holstein,2884,,,100,FALSE,AN,151,13/03/2022,1253,total
-0,0,151AN1692,5,2,2,17/03/2022,35,Rigo Trejo,9,1,Lut to Breed,117,3155842,Red Rock Dairy,Red Rock Dairy,Holstein,2774,,,,TRUE,AN,151,13/03/2022,836,total
-0,0,151AN1692,5,2,2,17/03/2022,35,Rigo Trejo,9,1,Lut to Breed,114,3155354,Red Rock Dairy,Red Rock Dairy,Holstein,2546,,,0,FALSE,AN,151,13/03/2022,409,total
-1,0,151AN1692,3,4,4,17/03/2022,35,Martin Medrano,9,1,Lut to Breed,189,3156158,Red Rock Dairy,Red Rock Dairy,Holstein,1573,,,100,FALSE,AN,151,13/03/2022,361,total
-0,0,151AN1692,5,4,4,17/03/2022,35,Rigo Trejo,9,1,Lut to Breed,188,3152289,Red Rock Dairy,Red Rock Dairy,Holstein,2918,,,0,FALSE,AN,151,13/03/2022,1174,total
-1,0,151AN1692,5,3,3,24/03/2022,49,Noe Gonzalez,10,1,Ovsynch,168,3155338,Red Rock Dairy,Red Rock Dairy,Holstein,2614,,,100,FALSE,AN,151,20/03/2022,346,total
-0,0,151AN1692,4,3,3,17/03/2022,35,Rigo Trejo,9,1,Lut to Breed,152,3154421,Red Rock Dairy,Red Rock Dairy,Holstein,2026,,,0,FALSE,AN,151,13/03/2022,361,total
-1,0,151AN1692,7,3,3,17/03/2022,35,Rigo Trejo,9,1,Lut to Breed,163,3154974,Red Rock Dairy,Red Rock Dairy,Holstein,2632,,,100,FALSE,AN,151,13/03/2022,1274,total
-1,0,151AN1692,2,3,3,17/03/2022,35,Rigo Trejo,9,1,Lut to Breed,148,4336473,Red Rock Dairy,Red Rock Dairy,Holstein,1155,,,100,FALSE,AN,151,13/03/2022,389,total
-0,0,151AN1692,5,2,2,24/03/2022,70,Rigo Trejo,9,1,Ovsynch,149,3155602,Red Rock Dairy,Red Rock Dairy,Holstein,2826,,,0,FALSE,AN,151,20/03/2022,1166,total
-1,0,151AN1692,3,2,2,17/03/2022,35,Martin Medrano,9,1,Lut to Breed,115,3156383,Red Rock Dairy,Red Rock Dairy,Holstein,1491,,,100,FALSE,AN,151,13/03/2022,396,total
-1,0,151AN1692,5,2,2,17/03/2022,35,Martin Medrano,9,1,Lut to Breed,119,3155084,Red Rock Dairy,Red Rock Dairy,Holstein,2657,,,100,FALSE,AN,151,13/03/2022,880,total
-0,0,151AN1692,5,2,2,17/03/2022,35,Rigo Trejo,9,1,Lut to Breed,116,3155228,Red Rock Dairy,Red Rock Dairy,Holstein,2375,,,0,FALSE,AN,151,13/03/2022,842,total
-0,0,151AN1692,5,2,2,17/03/2022,35,Adrian Medrano,9,1,Lut to Breed,116,3155608,Red Rock Dairy,Red Rock Dairy,Holstein,2803,,,0,FALSE,AN,151,13/03/2022,1172,total
-0,0,151AN1692,2,2,2,17/03/2022,35,Martin Medrano,9,1,Lut to Breed,115,4333525,Red Rock Dairy,Red Rock Dairy,Holstein,1157,,,0,FALSE,AN,151,13/03/2022,384,total
-0,0,151AN1692,6,3,3,17/03/2022,35,Adrian Medrano,9,1,Lut to Breed,150,3155825,Red Rock Dairy,Red Rock Dairy,Holstein,2663,,,0,FALSE,AN,151,13/03/2022,795,total
-0,0,151AN1692,5,4,4,17/03/2022,35,Rigo Trejo,9,1,Lut to Breed,203,3155744,Red Rock Dairy,Red Rock Dairy,Holstein,2740,,,0,FALSE,AN,151,13/03/2022,762,total
-1,0,151AN1692,3,3,3,17/03/2022,35,Rigo Trejo,10,1,Lut to Breed,148,3156165,Red Rock Dairy,Red Rock Dairy,Holstein,1550,,,100,FALSE,AN,151,13/03/2022,353,total
-0,0,151AN1692,3,4,4,17/03/2022,35,Rigo Trejo,10,1,Lut to Breed,184,3156799,Red Rock Dairy,Red Rock Dairy,Holstein,1608,,,0,FALSE,AN,151,13/03/2022,368,total
-0,0,151AN1692,1,4,4,17/03/2022,35,Martin Medrano,10,1,Lut to Breed,186,5643051,Red Rock Dairy,Red Rock Dairy,Holstein,871,,,0,FALSE,AN,151,13/03/2022,386,total
-0,0,151AN1692,4,2,2,17/03/2022,35,Martin Medrano,10,1,Lut to Breed,114,3157632,Red Rock Dairy,Red Rock Dairy,Holstein,1978,,,0,FALSE,AN,151,13/03/2022,367,total
-0,0,151AN1692,3,4,4,17/03/2022,35,Martin Medrano,10,1,Lut to Breed,184,3156773,Red Rock Dairy,Red Rock Dairy,Holstein,1613,,,0,FALSE,AN,151,13/03/2022,374,total
-1,0,151AN1692,4,3,3,17/03/2022,35,Rigo Trejo,10,1,Lut to Breed,148,3154332,Red Rock Dairy,Red Rock Dairy,Holstein,2030,,,100,FALSE,AN,151,13/03/2022,353,total
-1,0,551HO4425,1,2,2,24/03/2022,70,Rigo Trejo,10,1,Ovsynch,145,5860247,Red Rock Dairy,Red Rock Dairy,Holstein,802,,,100,FALSE,HO,551,20/03/2022,382,total
-0,0,151AN1692,4,3,3,17/03/2022,35,Rigo Trejo,10,1,Lut to Breed,150,3157966,Red Rock Dairy,Red Rock Dairy,Holstein,1877,,,0,FALSE,AN,151,13/03/2022,338,total
-0,0,151AN1692,4,2,2,17/03/2022,35,Rigo Trejo,10,1,Lut to Breed,116,3154141,Red Rock Dairy,Red Rock Dairy,Holstein,2065,,,0,FALSE,AN,151,13/03/2022,339,total
-1,0,151AN1692,2,2,2,17/03/2022,35,Martin Medrano,10,1,Lut to Breed,118,4284636,Red Rock Dairy,Red Rock Dairy,Holstein,1142,,,100,FALSE,AN,151,13/03/2022,415,total
-1,0,151AN1692,2,5,5,17/03/2022,35,Rigo Trejo,10,1,Lut to Breed,222,3796494,Red Rock Dairy,Red Rock Dairy,Holstein,1219,,,100,FALSE,AN,151,13/03/2022,383,total
-0,0,151AN1692,7,4,4,17/03/2022,35,Rigo Trejo,10,1,Lut to Breed,186,3152872,Red Rock Dairy,Red Rock Dairy,Holstein,3240,,,0,FALSE,AN,151,13/03/2022,804,total
-1,0,151AN1692,4,3,3,17/03/2022,35,Martin Medrano,10,1,Lut to Breed,148,3154176,Red Rock Dairy,Red Rock Dairy,Holstein,2009,,,100,FALSE,AN,151,13/03/2022,353,total
-1,0,151AN1692,3,2,2,17/03/2022,35,Rigo Trejo,10,1,Lut to Breed,115,3156796,Red Rock Dairy,Red Rock Dairy,Holstein,1606,,,100,FALSE,AN,151,13/03/2022,355,total
-1,0,151AN1692,2,4,4,24/03/2022,56,Rigo Trejo,10,1,Ovsynch,210,3738913,Red Rock Dairy,Red Rock Dairy,Holstein,1239,,,100,FALSE,AN,151,20/03/2022,389,total
-0,0,151AN1692,4,3,3,17/03/2022,35,Martin Medrano,10,1,Lut to Breed,150,4595090,Red Rock Dairy,Red Rock Dairy,Holstein,2512,,,0,FALSE,AN,151,13/03/2022,1299,total
-0,0,151AN1692,4,3,3,17/03/2022,35,Martin Medrano,10,1,Lut to Breed,152,3154135,Red Rock Dairy,Red Rock Dairy,Holstein,2066,,,0,FALSE,AN,151,13/03/2022,370,total
-1,0,151AN1692,3,2,2,17/03/2022,35,Rigo Trejo,10,1,Lut to Breed,116,3155971,Red Rock Dairy,Red Rock Dairy,Holstein,1532,,,100,FALSE,AN,151,13/03/2022,360,total
-0,0,151AN1692,3,3,3,24/03/2022,63,Martin Medrano,10,1,Ovsynch,176,3156530,Red Rock Dairy,Red Rock Dairy,Holstein,1668,,,0,FALSE,AN,151,20/03/2022,348,total
-0,0,151AN1692,3,2,2,17/03/2022,35,Martin Medrano,10,1,Lut to Breed,117,3156179,Red Rock Dairy,Red Rock Dairy,Holstein,1545,,,0,FALSE,AN,151,13/03/2022,345,total
-0,0,151AN1692,2,5,5,17/03/2022,35,Martin Medrano,10,1,Lut to Breed,219,3583847,Red Rock Dairy,Red Rock Dairy,Holstein,1275,,,0,FALSE,AN,151,13/03/2022,382,total
-0,0,151AN1692,4,2,2,17/03/2022,35,Rigo Trejo,10,1,Lut to Breed,119,3157034,Red Rock Dairy,Red Rock Dairy,Holstein,1786,,,0,FALSE,AN,151,13/03/2022,300,total
-0,0,151AN1692,1,4,4,17/03/2022,35,Rigo Trejo,10,1,Lut to Breed,181,5525006,Red Rock Dairy,Red Rock Dairy,Holstein,839,,,0,FALSE,AN,151,13/03/2022,389,total
-0,0,551HO4429,1,2,2,17/03/2022,35,Martin Medrano,1,1,Lut to Breed,116,5862177,Red Rock Dairy,Red Rock Dairy,Holstein,793,126,,0,FALSE,HO,551,13/03/2022,385,total
-1,0,551HO4429,1,2,2,17/03/2022,35,Rigo Trejo,1,1,Lut to Breed,112,5947169,Red Rock Dairy,Red Rock Dairy,Holstein,806,234,,100,FALSE,HO,551,13/03/2022,383,total
-1,0,551HO4425,1,2,2,24/03/2022,63,Rigo Trejo,10,1,Ovsynch,143,5850310,Red Rock Dairy,Red Rock Dairy,Holstein,805,,,100,FALSE,HO,551,20/03/2022,389,total
 0,0,151AN1692,3,1,1,24/03/2022,,Rigo Trejo,9,1,Ovsynch,92,3156198,Red Rock Dairy,Red Rock Dairy,Holstein,1567,,,0,FALSE,AN,151,20/03/2022,373,total
-0,0,551HO4429,1,2,2,17/03/2022,35,Rigo Trejo,1,1,Lut to Breed,114,6165169,Red Rock Dairy,Red Rock Dairy,Holstein,771,126,,0,FALSE,HO,551,13/03/2022,386,total
-0,0,551HO4429,1,2,2,17/03/2022,35,Rigo Trejo,1,1,Lut to Breed,110,6014494,Red Rock Dairy,Red Rock Dairy,Holstein,812,,,0,FALSE,HO,551,13/03/2022,388,total
-0,0,551HO4429,1,2,2,17/03/2022,35,Adrian Medrano,1,1,Lut to Breed,116,5841192,Red Rock Dairy,Red Rock Dairy,Holstein,801,,,0,FALSE,HO,551,13/03/2022,386,total
-0,0,551HO4429,1,2,2,17/03/2022,35,Rigo Trejo,1,1,Lut to Breed,114,5848488,Red Rock Dairy,Red Rock Dairy,Holstein,800,,,0,FALSE,HO,551,13/03/2022,384,total
-0,0,551AN1609,1,3,3,17/03/2022,35,Rigo Trejo,1,1,Lut to Breed,151,5848503,Red Rock Dairy,Red Rock Dairy,Holstein,800,,,0,FALSE,AN,551,13/03/2022,385,total
-0,0,551HO4429,1,2,2,17/03/2022,35,Rigo Trejo,1,1,Lut to Breed,114,5895390,Red Rock Dairy,Red Rock Dairy,Holstein,783,345,,0,FALSE,HO,551,13/03/2022,390,total
-0,0,551HO4429,1,2,2,17/03/2022,35,Rigo Trejo,1,1,Lut to Breed,112,5505325,Red Rock Dairy,Red Rock Dairy,Holstein,845,,,0,FALSE,HO,551,13/03/2022,401,total
-1,0,151AN1692,2,3,3,17/03/2022,35,Adrian Medrano,2,1,Lut to Breed,149,3207106,Red Rock Dairy,Red Rock Dairy,Holstein,1301,,,100,FALSE,AN,151,13/03/2022,390,total
-0,0,151AN1692,2,4,4,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,188,3718458,Red Rock Dairy,Red Rock Dairy,Holstein,1198,,,0,FALSE,AN,151,13/03/2022,382,total
-1,0,551AN1609,2,3,3,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,154,3877669,Red Rock Dairy,Red Rock Dairy,Holstein,1259,,,100,FALSE,AN,551,13/03/2022,389,total
-0,0,551AN1609,2,2,2,17/03/2022,35,Martin Medrano,2,1,Lut to Breed,116,4327262,Red Rock Dairy,Red Rock Dairy,Holstein,1159,,,0,FALSE,AN,551,13/03/2022,387,total
-0,0,151AN1692,2,4,4,24/03/2022,70,Rigo Trejo,2,1,Ovsynch,224,3830207,Red Rock Dairy,Red Rock Dairy,Holstein,1251,,,0,FALSE,AN,151,20/03/2022,387,total
-0,0,551HO4429,1,2,2,17/03/2022,35,Rigo Trejo,1,1,Lut to Breed,112,5860243,Red Rock Dairy,Red Rock Dairy,Holstein,795,,,0,FALSE,HO,551,13/03/2022,380,total
-1,0,551AN1609,1,3,3,17/03/2022,35,Martin Medrano,1,1,Lut to Breed,148,5629372,Red Rock Dairy,Red Rock Dairy,Holstein,847,,,100,FALSE,AN,551,13/03/2022,389,total
-1,0,551HO4429,1,2,2,17/03/2022,35,Martin Medrano,1,1,Lut to Breed,112,6202473,Red Rock Dairy,Red Rock Dairy,Holstein,767,345,,100,FALSE,HO,551,13/03/2022,389,total
-0,0,551AN1609,2,2,2,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,115,4336475,Red Rock Dairy,Red Rock Dairy,Holstein,1156,,,0,FALSE,AN,551,13/03/2022,382,total
-0,0,551AN1609,1,2,2,17/03/2022,35,Martin Medrano,2,1,Lut to Breed,115,5681504,Red Rock Dairy,Red Rock Dairy,Holstein,863,,,0,FALSE,AN,551,13/03/2022,384,total
-1,0,151AN1692,3,3,3,24/03/2022,49,Martin Medrano,2,1,Ovsynch,168,3817398,Red Rock Dairy,Red Rock Dairy,Holstein,1528,,,100,FALSE,AN,151,20/03/2022,341,total
-1,0,551AN1609,2,2,2,17/03/2022,35,Martin Medrano,2,1,Lut to Breed,117,4453730,Red Rock Dairy,Red Rock Dairy,Holstein,1160,,,100,FALSE,AN,551,13/03/2022,387,total
-1,0,551AN1609,2,2,2,17/03/2022,35,Martin Medrano,2,1,Lut to Breed,117,3753622,Red Rock Dairy,Red Rock Dairy,Holstein,1232,,,100,FALSE,AN,551,13/03/2022,389,total
-0,0,551AN1609,2,2,2,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,116,4280655,Red Rock Dairy,Red Rock Dairy,Holstein,1143,,,0,FALSE,AN,551,13/03/2022,384,total
-1,0,151AN1692,2,3,3,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,148,4160679,Red Rock Dairy,Red Rock Dairy,Holstein,1193,,,100,FALSE,AN,151,13/03/2022,381,total
-0,0,551AN1609,2,2,2,17/03/2022,35,Martin Medrano,2,1,Lut to Breed,113,4016670,Red Rock Dairy,Red Rock Dairy,Holstein,1172,,,0,FALSE,AN,551,13/03/2022,385,total
-0,0,551AN1609,2,2,2,17/03/2022,35,Martin Medrano,2,1,Lut to Breed,119,3474672,Red Rock Dairy,Red Rock Dairy,Holstein,1270,,,0,FALSE,AN,551,13/03/2022,384,total
-0,0,151AN1692,1,4,4,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,181,5510372,Red Rock Dairy,Red Rock Dairy,Holstein,844,,,0,FALSE,AN,151,13/03/2022,400,total
-1,0,151AN1692,2,5,5,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,224,3457503,Red Rock Dairy,Red Rock Dairy,Holstein,1264,,,100,FALSE,AN,151,13/03/2022,386,total
-1,0,151AN1692,5,2,2,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,115,3154574,Red Rock Dairy,Red Rock Dairy,Holstein,2375,,,100,FALSE,AN,151,13/03/2022,873,total
-0,0,151AN1692,1,4,4,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,183,5519151,Red Rock Dairy,Red Rock Dairy,Holstein,841,,,0,FALSE,AN,151,13/03/2022,383,total
-1,0,151AN1692,2,3,3,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,152,3159875,Red Rock Dairy,Red Rock Dairy,Holstein,1325,,,100,FALSE,AN,151,13/03/2022,383,total
-0,0,151AN1692,2,3,3,17/03/2022,35,Adrian Medrano,2,1,Lut to Breed,148,4159922,Red Rock Dairy,Red Rock Dairy,Holstein,1193,,,0,FALSE,AN,151,13/03/2022,386,total
-0,0,151AN1692,1,3,3,17/03/2022,35,Adrian Medrano,2,1,Lut to Breed,148,5903201,Red Rock Dairy,Red Rock Dairy,Holstein,809,,,0,FALSE,AN,151,13/03/2022,386,total
-0,0,551AN1609,2,3,3,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,151,4410298,Red Rock Dairy,Red Rock Dairy,Holstein,1163,,,0,FALSE,AN,551,13/03/2022,383,total
-0,0,551AN1609,2,2,2,17/03/2022,35,Martin Medrano,2,1,Lut to Breed,116,4220804,Red Rock Dairy,Red Rock Dairy,Holstein,1122,,,0,FALSE,AN,551,13/03/2022,384,total
-1,0,551AN1609,2,2,2,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,116,3546523,Red Rock Dairy,Red Rock Dairy,Holstein,1290,,,100,FALSE,AN,551,13/03/2022,383,total
-1,1,151AN1692,2,4,4,17/03/2022,35,Rigo Trejo,2,1,Lut to Breed,198,3429861,Red Rock Dairy,Red Rock Dairy,Holstein,1267,,,100,FALSE,AN,151,13/03/2022,380,total
 0,0,151AN1692,2,1,1,28/04/2022,,Rigo Trejo,10,1,Double Ovsynch 2PgF,79,4412890,Red Rock Dairy,Red Rock Dairy,Holstein,1203,,,0,FALSE,AN,151,24/04/2022,388,total
 0,0,151AN1692,2,1,1,28/04/2022,,Noe Gonzalez,10,1,Double Ovsynch 2PgF,79,4321387,Red Rock Dairy,Red Rock Dairy,Holstein,1172,,,0,FALSE,AN,151,24/04/2022,386,total
 0,0,551HO4355,1,1,1,28/04/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,76,5895202,Red Rock Dairy,Red Rock Dairy,Holstein,824,,,0,FALSE,HO,551,24/04/2022,388,total
@@ -534,12 +434,8 @@
 1,0,151AN1692,3,1,1,28/04/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,79,3156468,Red Rock Dairy,Red Rock Dairy,Holstein,1525,,,100,FALSE,AN,151,24/04/2022,389,total
 1,0,151AN1692,3,1,1,28/04/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,79,3156758,Red Rock Dairy,Red Rock Dairy,Holstein,1642,,,100,FALSE,AN,151,24/04/2022,362,total
 1,0,551h0o4429,0,1,1,15/03/2022,,Martin Medrano,14,0,Chalk,,8585006,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,,,13/03/2022,387,total
-0,0,151AN1692,0,4,4,15/03/2022,19,Martin Medrano,14,0,Chalk,,8274023,Red Rock Dairy,Red Rock Dairy,Holstein,445,,,0,FALSE,AN,151,13/03/2022,384,total
-1,0,551HO4425,0,2,2,15/03/2022,22,Martin Medrano,14,1,Chalk,,8621536,Red Rock Dairy,Red Rock Dairy,Holstein,407,,,100,FALSE,HO,551,13/03/2022,385,total
 0,0,551HO4425,0,1,1,15/03/2022,,Martin Medrano,14,1,Chalk,,8580695,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,0,FALSE,HO,551,13/03/2022,389,total
-0,0,551HO4425,0,3,3,15/03/2022,19,Martin Medrano,14,1,Chalk,,8142398,Red Rock Dairy,Red Rock Dairy,Holstein,417,,,0,FALSE,HO,551,13/03/2022,387,total
 0,0,551h0o4429,0,1,1,15/03/2022,,Martin Medrano,15,0,Chalk,,8475409,Red Rock Dairy,Red Rock Dairy,Holstein,386,666,,0,FALSE,,,13/03/2022,386,total
-0,0,551h0o4429,0,2,2,15/03/2022,21,Martin Medrano,14,0,Chalk,,8536441,Red Rock Dairy,Red Rock Dairy,Holstein,404,,,0,FALSE,,,13/03/2022,383,total
 0,0,551h0o4429,0,1,1,15/03/2022,,Martin Medrano,14,0,Chalk,,8475471,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,,,13/03/2022,385,total
 0,0,151AN1692,7,1,1,28/04/2022,,Rigo Trejo,9,1,Double Ovsynch 2PgF,78,3152493,Red Rock Dairy,Red Rock Dairy,Holstein,3507,,,,TRUE,AN,151,24/04/2022,1022,total
 0,0,551HO4355,1,1,1,28/04/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,75,6478404,Red Rock Dairy,Red Rock Dairy,Holstein,748,234,,0,FALSE,HO,551,24/04/2022,388,total
@@ -550,10 +446,6 @@
 1,0,551HO4355,1,1,1,28/04/2022,,Noe Gonzalez,1,1,Double Ovsynch 2PgF,75,6478406,Red Rock Dairy,Red Rock Dairy,Holstein,749,234,,100,FALSE,HO,551,24/04/2022,389,total
 0,0,551HO4355,1,1,1,28/04/2022,,Noe Gonzalez,1,1,Double Ovsynch 2PgF,75,6115484,Red Rock Dairy,Red Rock Dairy,Holstein,793,234,,0,FALSE,HO,551,24/04/2022,384,total
 0,0,551h0o4429,0,1,1,16/03/2022,,Martin Medrano,14,0,Chalk,,8585007,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,0,FALSE,,,13/03/2022,388,total
-0,0,551h0o4429,0,2,2,16/03/2022,22,Martin Medrano,14,0,Chalk,,8247956,Red Rock Dairy,Red Rock Dairy,Holstein,420,,,0,FALSE,,,13/03/2022,398,total
-0,0,551h0o4429,0,3,3,16/03/2022,14,Martin Medrano,14,0,Chalk,,8146748,Red Rock Dairy,Red Rock Dairy,Holstein,416,,,0,FALSE,,,13/03/2022,385,total
-1,0,151AN1692,0,4,4,16/03/2022,20,Martin Medrano,14,0,Chalk,,7893979,Red Rock Dairy,Red Rock Dairy,Holstein,466,,,100,FALSE,AN,151,13/03/2022,385,total
-0,0,551h0o4429,0,2,2,16/03/2022,17,Martin Medrano,14,0,Chalk,,8536551,Red Rock Dairy,Red Rock Dairy,Holstein,401,,,0,FALSE,,,13/03/2022,384,total
 1,0,151AN1692,3,1,1,05/05/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,84,3159608,Red Rock Dairy,Red Rock Dairy,Holstein,1454,,,100,FALSE,AN,151,01/05/2022,387,total
 0,0,151AN1692,3,1,1,05/05/2022,,Rigo Trejo,9,1,Double Ovsynch 2PgF,84,3156604,Red Rock Dairy,Red Rock Dairy,Holstein,1696,,,0,FALSE,AN,151,01/05/2022,346,total
 0,0,151AN1692,3,1,1,05/05/2022,,Rigo Trejo,9,1,Double Ovsynch 2PgF,84,3159680,Red Rock Dairy,Red Rock Dairy,Holstein,1482,,,0,FALSE,AN,151,01/05/2022,389,total
@@ -568,11 +460,7 @@
 1,0,151AN1692,2,1,1,05/05/2022,,Rigo Trejo,10,1,Double Ovsynch 2PgF,84,4774977,Red Rock Dairy,Red Rock Dairy,Holstein,1099,234,,100,FALSE,AN,151,01/05/2022,390,total
 1,0,151AN1692,2,1,1,05/05/2022,,Noe Gonzalez,10,1,Double Ovsynch 2PgF,84,4748789,Red Rock Dairy,Red Rock Dairy,Holstein,1103,345,,100,FALSE,AN,151,01/05/2022,746,total
 0,0,551HO4425,0,1,1,17/03/2022,,Rigo Trejo,14,1,Chalk,,8543800,Red Rock Dairy,Red Rock Dairy,Holstein,401,,,0,FALSE,HO,551,13/03/2022,401,total
-0,0,551HO4425,0,2,2,17/03/2022,94,Rigo Trejo,21,1,Chalk,,8118177,Red Rock Dairy,Red Rock Dairy,Holstein,477,,,0,FALSE,HO,551,13/03/2022,383,total
-0,0,551HO4425,0,2,2,17/03/2022,66,Rigo Trejo,21,1,Chalk,,8387204,Red Rock Dairy,Red Rock Dairy,Holstein,455,,,0,FALSE,HO,551,13/03/2022,389,total
-1,0,551HO4425,0,2,2,17/03/2022,45,Rigo Trejo,21,1,Chalk,,8276980,Red Rock Dairy,Red Rock Dairy,Holstein,446,,,100,FALSE,HO,551,13/03/2022,401,total
 0,0,551HO4425,0,1,1,17/03/2022,,Rigo Trejo,14,1,Chalk,,8196492,Red Rock Dairy,Red Rock Dairy,Holstein,434,,,0,FALSE,HO,551,13/03/2022,434,total
-1,0,551HO4425,0,2,2,17/03/2022,37,Rigo Trejo,14,1,Chalk,,8232681,Red Rock Dairy,Red Rock Dairy,Holstein,425,,,100,FALSE,HO,551,13/03/2022,388,total
 1,0,151AN1692,3,1,1,05/05/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,83,3159573,Red Rock Dairy,Red Rock Dairy,Holstein,1448,,,100,FALSE,AN,151,01/05/2022,388,total
 0,0,151AN1692,2,1,1,05/05/2022,,Noe Gonzalez,10,1,Double Ovsynch 2PgF,83,4607635,Red Rock Dairy,Red Rock Dairy,Holstein,1133,234,,0,FALSE,AN,151,01/05/2022,388,total
 1,0,151AN1692,4,1,1,05/05/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,83,3157476,Red Rock Dairy,Red Rock Dairy,Holstein,1782,,,100,FALSE,AN,151,01/05/2022,357,total
@@ -584,8 +472,6 @@
 0,0,151AN1692,5,1,1,05/05/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,82,3154577,Red Rock Dairy,Red Rock Dairy,Holstein,2419,,,,TRUE,AN,151,01/05/2022,802,total
 0,0,551HO4355,1,1,1,05/05/2022,,Noe Gonzalez,1,1,Double Ovsynch 2PgF,79,6109657,Red Rock Dairy,Red Rock Dairy,Holstein,802,234,,0,FALSE,HO,551,01/05/2022,386,total
 0,0,551HO4355,1,1,1,05/05/2022,,Noe Gonzalez,1,1,Double Ovsynch 2PgF,79,6054916,Red Rock Dairy,Red Rock Dairy,Holstein,779,561,,0,FALSE,HO,551,01/05/2022,384,total
-1,0,151AN1692,0,2,2,19/03/2022,40,Noe Gonzalez,21,0,Chalk,,8233885,Red Rock Dairy,Red Rock Dairy,Holstein,426,666,,100,FALSE,AN,151,13/03/2022,386,total
-0,0,151AN1692,0,2,2,19/03/2022,19,Noe Gonzalez,14,0,Chalk,,8637230,Red Rock Dairy,Red Rock Dairy,Holstein,408,666,,0,FALSE,AN,151,13/03/2022,389,total
 0,0,151AN1692,4,1,1,05/05/2022,,Rigo Trejo,9,1,Double Ovsynch 2PgF,81,3157821,Red Rock Dairy,Red Rock Dairy,Holstein,1915,,,0,FALSE,AN,151,01/05/2022,361,total
 1,0,151AN1692,4,1,1,05/05/2022,,Rigo Trejo,10,1,Double Ovsynch 2PgF,81,3157031,Red Rock Dairy,Red Rock Dairy,Holstein,1839,,,100,FALSE,AN,151,01/05/2022,347,total
 0,0,151AN1692,7,1,1,05/05/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,81,3152080,Red Rock Dairy,Red Rock Dairy,Holstein,3063,,,0,FALSE,AN,151,01/05/2022,315,total
@@ -595,12 +481,7 @@
 0,0,151AN1692,2,1,1,05/05/2022,,Martin Medrano,2,1,Double Ovsynch 2PgF,81,5146704,Red Rock Dairy,Red Rock Dairy,Holstein,1080,345,,0,FALSE,AN,151,01/05/2022,398,total
 1,0,551HO4355,1,1,1,05/05/2022,,Noe Gonzalez,1,1,Double Ovsynch 2PgF,78,6159195,Red Rock Dairy,Red Rock Dairy,Holstein,786,123,,100,FALSE,HO,551,01/05/2022,385,total
 1,0,551HO4355,1,1,1,05/05/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,78,6463738,Red Rock Dairy,Red Rock Dairy,Dairy-Beef Crossbreed,763,126,,100,FALSE,HO,551,01/05/2022,389,total
-0,0,551h0o4429,0,2,2,20/03/2022,0,Martin Medrano,14,0,Chalk,,8570691,Red Rock Dairy,Red Rock Dairy,Holstein,396,,,0,FALSE,,,20/03/2022,396,total
-0,0,151AN1692,0,3,3,20/03/2022,18,Martin Medrano,14,0,Chalk,,8228586,Red Rock Dairy,Red Rock Dairy,Holstein,430,,,0,FALSE,AN,151,20/03/2022,389,total
-1,0,151AN1692,0,3,3,20/03/2022,19,Martin Medrano,14,0,Chalk,,8228501,Red Rock Dairy,Red Rock Dairy,Holstein,430,,,100,FALSE,AN,151,20/03/2022,390,total
 0,0,551h0o4429,0,1,1,20/03/2022,,Rigo Trejo,14,0,Chalk,,8570691,Red Rock Dairy,Red Rock Dairy,Holstein,396,,,0,FALSE,,,20/03/2022,396,total
-0,0,151AN1692,0,3,3,20/03/2022,20,Rigo Trejo,14,0,Chalk,,8230722,Red Rock Dairy,Red Rock Dairy,Holstein,429,,,0,FALSE,AN,151,20/03/2022,387,total
-0,0,551HO4425,0,2,2,20/03/2022,21,Rigo Trejo,14,1,Chalk,,8643759,Red Rock Dairy,Red Rock Dairy,Holstein,407,,,0,FALSE,HO,551,20/03/2022,386,total
 1,0,551HO4425,0,1,1,20/03/2022,,Rigo Trejo,14,1,Chalk,,8504490,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,100,FALSE,HO,551,20/03/2022,384,total
 1,0,551HO4425,0,1,1,20/03/2022,,Rigo Trejo,14,1,Chalk,,8490232,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,HO,551,20/03/2022,388,total
 1,0,551HO4425,0,1,1,20/03/2022,,Rigo Trejo,14,1,Chalk,,8504491,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,100,FALSE,HO,551,20/03/2022,384,total
@@ -611,102 +492,16 @@
 1,0,551AN1609,0,1,1,21/03/2022,,Rigo Trejo,14,1,Chalk,,8642450,Red Rock Dairy,Red Rock Dairy,Holstein,410,666,,100,FALSE,AN,551,20/03/2022,410,total
 1,0,551h0o4429,0,1,1,21/03/2022,,Rigo Trejo,14,0,Chalk,,8492334,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,20/03/2022,388,total
 0,0,551h0o4429,0,1,1,21/03/2022,,Rigo Trejo,14,0,Chalk,,8490181,Red Rock Dairy,Red Rock Dairy,Holstein,389,666,,0,FALSE,,,20/03/2022,389,total
-0,0,551h0o4429,0,2,2,21/03/2022,22,Rigo Trejo,14,0,Chalk,,8649222,Red Rock Dairy,Red Rock Dairy,Holstein,408,,,0,FALSE,,,20/03/2022,386,total
 1,0,551h0o4429,0,1,1,21/03/2022,,Rigo Trejo,14,0,Chalk,,8494251,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,,,20/03/2022,387,total
 0,0,551h0o4429,0,1,1,21/03/2022,,Rigo Trejo,14,0,Chalk,,8492329,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,0,FALSE,,,20/03/2022,387,total
-1,0,151AN1692,0,4,4,21/03/2022,21,Rigo Trejo,14,0,Chalk,,8272181,Red Rock Dairy,Red Rock Dairy,Holstein,452,,,100,FALSE,AN,151,20/03/2022,389,total
 1,0,551AN1609,0,1,1,21/03/2022,,Rigo Trejo,14,1,Chalk,,8398208,Red Rock Dairy,Red Rock Dairy,Holstein,385,666,,100,FALSE,AN,551,20/03/2022,385,total
 1,0,551h0o4429,0,1,1,21/03/2022,,Rigo Trejo,14,0,Chalk,,8492320,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,20/03/2022,388,total
-0,0,151AN1692,0,4,4,21/03/2022,20,Rigo Trejo,14,0,Chalk,,8373893,Red Rock Dairy,Red Rock Dairy,Holstein,461,,,0,FALSE,AN,151,20/03/2022,382,total
 0,0,551h0o4429,0,1,1,21/03/2022,,Rigo Trejo,14,0,Chalk,,8504499,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,,,20/03/2022,385,total
 1,0,551h0o4429,0,1,1,21/03/2022,,Rigo Trejo,14,0,Chalk,,8492333,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,20/03/2022,388,total
 1,0,551h0o4429,0,1,1,21/03/2022,,Rigo Trejo,14,0,Chalk,,8490191,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,20/03/2022,388,total
 0,0,551h0o4429,0,1,1,21/03/2022,,Rigo Trejo,14,0,Chalk,,8491593,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,0,FALSE,,,20/03/2022,388,total
 1,0,551h0o4429,0,1,1,21/03/2022,,Rigo Trejo,14,0,Chalk,,8486485,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,,,20/03/2022,389,total
-1,0,151AN1692,2,3,3,24/03/2022,35,Rigo Trejo,2,1,Lut to Breed,149,4333562,Red Rock Dairy,Red Rock Dairy,Holstein,1164,,,100,FALSE,AN,151,20/03/2022,384,total
-0,0,551AN1609,1,3,3,24/03/2022,35,Noe Gonzalez,2,1,Lut to Breed,149,5848497,Red Rock Dairy,Red Rock Dairy,Holstein,806,561,,0,FALSE,AN,551,20/03/2022,383,total
-1,0,551AN1609,2,2,2,24/03/2022,35,Noe Gonzalez,2,1,Lut to Breed,115,4252969,Red Rock Dairy,Red Rock Dairy,Holstein,1121,,,100,FALSE,AN,551,20/03/2022,383,total
-0,0,151AN1692,4,4,4,24/03/2022,35,Martin Medrano,2,1,Lut to Breed,186,3154166,Red Rock Dairy,Red Rock Dairy,Holstein,2078,,,0,FALSE,AN,151,20/03/2022,343,total
-0,0,151AN1692,1,4,4,24/03/2022,35,Noe Gonzalez,2,1,Lut to Breed,181,5720355,Red Rock Dairy,Red Rock Dairy,Holstein,881,,,0,FALSE,AN,151,20/03/2022,389,total
-0,0,151AN1692,2,3,3,24/03/2022,35,Noe Gonzalez,2,1,Lut to Breed,148,4154865,Red Rock Dairy,Red Rock Dairy,Holstein,1201,,,0,FALSE,AN,151,20/03/2022,386,total
-0,0,551AN1609,2,2,2,24/03/2022,35,Rigo Trejo,2,1,Lut to Breed,119,3700099,Red Rock Dairy,Red Rock Dairy,Holstein,1217,,,0,FALSE,AN,551,20/03/2022,387,total
-0,0,551AN1609,2,2,2,24/03/2022,35,Rigo Trejo,2,1,Lut to Breed,116,3764323,Red Rock Dairy,Red Rock Dairy,Holstein,1234,,,0,FALSE,AN,551,20/03/2022,384,total
-0,0,551AN1609,1,3,3,24/03/2022,35,Martin Medrano,2,1,Lut to Breed,147,5862179,Red Rock Dairy,Red Rock Dairy,Holstein,801,234,,0,FALSE,AN,551,20/03/2022,385,total
-0,0,151AN1692,1,4,4,24/03/2022,35,Noe Gonzalez,2,1,Lut to Breed,181,5973815,Red Rock Dairy,Red Rock Dairy,Holstein,834,,,0,FALSE,AN,151,20/03/2022,381,total
-0,0,151AN1692,1,3,3,24/03/2022,35,Rigo Trejo,2,1,Lut to Breed,150,5840568,Red Rock Dairy,Red Rock Dairy,Holstein,812,,,0,FALSE,AN,151,20/03/2022,389,total
-1,0,551AN1609,2,3,3,24/03/2022,35,Rigo Trejo,2,1,Lut to Breed,153,4331525,Red Rock Dairy,Red Rock Dairy,Holstein,1163,,,100,FALSE,AN,551,20/03/2022,380,total
-1,0,151AN1692,2,3,3,24/03/2022,35,Noe Gonzalez,2,1,Lut to Breed,150,4326592,Red Rock Dairy,Red Rock Dairy,Holstein,1165,,,100,FALSE,AN,151,20/03/2022,385,total
-1,0,551AN1609,1,3,3,24/03/2022,35,Martin Medrano,2,1,Lut to Breed,146,5581927,Red Rock Dairy,Red Rock Dairy,Holstein,861,,,100,FALSE,AN,551,20/03/2022,392,total
-0,0,551AN1609,1,3,3,24/03/2022,35,Martin Medrano,2,1,Lut to Breed,150,5644863,Red Rock Dairy,Red Rock Dairy,Holstein,877,,,0,FALSE,AN,551,20/03/2022,383,total
-0,0,151AN1692,7,5,5,24/03/2022,35,Rigo Trejo,9,1,Lut to Breed,218,3152398,Red Rock Dairy,Red Rock Dairy,Holstein,3503,,,0,FALSE,AN,151,20/03/2022,780,total
-0,0,151AN1692,7,2,2,24/03/2022,35,Rigo Trejo,9,1,Lut to Breed,118,3151981,Red Rock Dairy,Red Rock Dairy,Holstein,2963,,,0,FALSE,AN,151,20/03/2022,365,total
 1,0,151AN1692,5,1,1,31/03/2022,,Rigo Trejo,10,1,Ovsynch,126,3152327,Red Rock Dairy,Red Rock Dairy,Holstein,2898,,,100,FALSE,AN,151,27/03/2022,1288,total
-0,0,151AN1692,2,3,3,24/03/2022,35,Noe Gonzalez,9,1,Lut to Breed,150,3783277,Red Rock Dairy,Red Rock Dairy,Holstein,1232,,,0,FALSE,AN,151,20/03/2022,390,total
-0,0,151AN1692,5,5,5,24/03/2022,35,Noe Gonzalez,9,1,Lut to Breed,245,3155092,Red Rock Dairy,Red Rock Dairy,Holstein,2663,,,0,FALSE,AN,151,20/03/2022,814,total
-0,0,151AN1692,4,3,3,24/03/2022,35,Noe Gonzalez,9,1,Lut to Breed,149,3157959,Red Rock Dairy,Red Rock Dairy,Holstein,1887,,,0,FALSE,AN,151,20/03/2022,365,total
-1,0,151AN1692,1,4,4,24/03/2022,35,Noe Gonzalez,9,1,Lut to Breed,217,5686063,Red Rock Dairy,Red Rock Dairy,Holstein,869,,,100,FALSE,AN,151,20/03/2022,380,total
-0,0,151AN1692,4,3,3,24/03/2022,35,Noe Gonzalez,9,1,Lut to Breed,152,3154261,Red Rock Dairy,Red Rock Dairy,Holstein,1994,,,,TRUE,AN,151,20/03/2022,353,total
-0,0,151AN1692,5,2,2,24/03/2022,35,Rigo Trejo,9,1,Lut to Breed,115,3155198,Red Rock Dairy,Red Rock Dairy,Holstein,2650,,,0,FALSE,AN,151,20/03/2022,851,total
-1,0,151AN1692,4,2,2,24/03/2022,35,Martin Medrano,10,1,Lut to Breed,117,3157026,Red Rock Dairy,Red Rock Dairy,Holstein,1795,,,100,FALSE,AN,151,20/03/2022,345,total
-1,0,151AN1692,4,5,5,24/03/2022,35,Noe Gonzalez,10,1,Lut to Breed,249,3154081,Red Rock Dairy,Red Rock Dairy,Holstein,2090,,,100,FALSE,AN,151,20/03/2022,336,total
-0,0,151AN1692,4,3,3,24/03/2022,35,Noe Gonzalez,9,1,Lut to Breed,152,3154423,Red Rock Dairy,Red Rock Dairy,Holstein,2034,,,0,FALSE,AN,151,20/03/2022,339,total
-1,0,151AN1692,3,3,3,24/03/2022,35,Martin Medrano,10,1,Lut to Breed,152,3156399,Red Rock Dairy,Red Rock Dairy,Holstein,1511,,,100,FALSE,AN,151,20/03/2022,360,total
-1,0,151AN1692,2,3,3,31/03/2022,77,Rigo Trejo,10,1,Ovsynch,191,3159923,Red Rock Dairy,Red Rock Dairy,Holstein,1343,,,100,FALSE,AN,151,27/03/2022,389,total
-1,0,151AN1692,3,4,4,24/03/2022,35,Martin Medrano,10,1,Lut to Breed,185,3157416,Red Rock Dairy,Red Rock Dairy,Holstein,1753,,,100,FALSE,AN,151,20/03/2022,419,total
-0,0,151AN1692,3,3,3,24/03/2022,35,Noe Gonzalez,9,1,Lut to Breed,153,3156916,Red Rock Dairy,Red Rock Dairy,Holstein,1643,,,0,FALSE,AN,151,20/03/2022,368,total
-0,0,151AN1692,5,4,4,24/03/2022,35,Rigo Trejo,10,1,Lut to Breed,188,3155700,Red Rock Dairy,Red Rock Dairy,Holstein,2810,,,0,FALSE,AN,151,20/03/2022,1194,total
-1,0,551HO4425,1,2,2,31/03/2022,56,Noe Gonzalez,10,1,Ovsynch,137,5809263,Red Rock Dairy,Red Rock Dairy,Holstein,791,126,,100,FALSE,HO,551,27/03/2022,389,total
-1,0,151AN1692,3,3,3,31/03/2022,56,Noe Gonzalez,10,1,Ovsynch,170,3817452,Red Rock Dairy,Red Rock Dairy,Holstein,1572,,,100,FALSE,AN,151,27/03/2022,374,total
-0,0,151AN1692,3,2,2,24/03/2022,35,Rigo Trejo,10,1,Lut to Breed,118,3156078,Red Rock Dairy,Red Rock Dairy,Holstein,1528,,,0,FALSE,AN,151,20/03/2022,364,total
-1,0,151AN1692,3,2,2,24/03/2022,35,Rigo Trejo,10,1,Lut to Breed,113,3156427,Red Rock Dairy,Red Rock Dairy,Holstein,1483,,,100,FALSE,AN,151,20/03/2022,387,total
-0,0,151AN1692,3,3,3,24/03/2022,35,Martin Medrano,10,1,Lut to Breed,151,3156106,Red Rock Dairy,Red Rock Dairy,Holstein,1573,,,0,FALSE,AN,151,20/03/2022,362,total
-0,0,151AN1692,3,4,4,24/03/2022,35,Noe Gonzalez,10,1,Lut to Breed,185,3156808,Red Rock Dairy,Red Rock Dairy,Holstein,1591,,,0,FALSE,AN,151,20/03/2022,363,total
-0,0,151AN1692,5,4,4,24/03/2022,35,Rigo Trejo,10,1,Lut to Breed,186,3154650,Red Rock Dairy,Red Rock Dairy,Holstein,2308,,,0,FALSE,AN,151,20/03/2022,398,total
-1,0,151AN1692,2,2,2,24/03/2022,35,Noe Gonzalez,10,1,Lut to Breed,115,4300469,Red Rock Dairy,Red Rock Dairy,Holstein,1143,,,100,FALSE,AN,151,20/03/2022,383,total
-0,0,151AN1692,3,4,4,24/03/2022,35,Noe Gonzalez,10,1,Lut to Breed,201,3155978,Red Rock Dairy,Red Rock Dairy,Holstein,1536,,,0,FALSE,AN,151,20/03/2022,342,total
-0,0,151AN1692,3,3,3,24/03/2022,35,Martin Medrano,10,1,Lut to Breed,149,3156660,Red Rock Dairy,Red Rock Dairy,Holstein,1691,,,0,FALSE,AN,151,20/03/2022,358,total
-1,0,151AN1692,4,2,2,24/03/2022,35,Noe Gonzalez,10,1,Lut to Breed,119,3157176,Red Rock Dairy,Red Rock Dairy,Holstein,1836,,,100,FALSE,AN,151,20/03/2022,344,total
-0,0,151AN1692,4,3,3,24/03/2022,35,Noe Gonzalez,10,1,Lut to Breed,149,3154214,Red Rock Dairy,Red Rock Dairy,Holstein,2023,,,0,FALSE,AN,151,20/03/2022,354,total
-1,0,151AN1692,2,2,2,24/03/2022,35,Noe Gonzalez,10,1,Lut to Breed,115,4344656,Red Rock Dairy,Red Rock Dairy,Holstein,1156,,,100,FALSE,AN,151,20/03/2022,383,total
-1,0,151AN1692,5,3,3,31/03/2022,49,Rigo Trejo,10,1,Ovsynch,162,3155063,Red Rock Dairy,Red Rock Dairy,Holstein,2637,,,100,FALSE,AN,151,27/03/2022,845,total
-1,0,151AN1692,3,3,3,24/03/2022,35,Rigo Trejo,10,1,Lut to Breed,148,3817357,Red Rock Dairy,Red Rock Dairy,Holstein,1587,,,100,FALSE,AN,151,20/03/2022,390,total
-0,0,151AN1692,3,3,3,24/03/2022,35,Martin Medrano,10,1,Lut to Breed,153,3156743,Red Rock Dairy,Red Rock Dairy,Holstein,1613,,,0,FALSE,AN,151,20/03/2022,369,total
-1,0,151AN1692,2,2,2,24/03/2022,35,Martin Medrano,10,1,Lut to Breed,116,4127316,Red Rock Dairy,Red Rock Dairy,Holstein,1187,,,100,FALSE,AN,151,20/03/2022,387,total
-0,0,151AN1692,3,3,3,24/03/2022,35,Noe Gonzalez,10,1,Lut to Breed,154,3156767,Red Rock Dairy,Red Rock Dairy,Holstein,1605,,,0,FALSE,AN,151,20/03/2022,353,total
-0,0,151AN1692,2,2,2,24/03/2022,35,Noe Gonzalez,10,1,Lut to Breed,113,4199060,Red Rock Dairy,Red Rock Dairy,Holstein,1134,,,0,FALSE,AN,151,20/03/2022,389,total
-1,0,151AN1692,2,2,2,24/03/2022,35,Rigo Trejo,10,1,Lut to Breed,114,3707535,Red Rock Dairy,Red Rock Dairy,Holstein,1211,,,100,FALSE,AN,151,20/03/2022,388,total
-1,0,151AN1692,1,2,2,31/03/2022,63,Rigo Trejo,10,1,Ovsynch,138,6176097,Red Rock Dairy,Red Rock Dairy,Holstein,784,126,,100,FALSE,AN,151,27/03/2022,389,total
-0,0,151AN1692,5,2,2,31/03/2022,63,Rigo Trejo,9,1,Ovsynch,144,3155658,Red Rock Dairy,Red Rock Dairy,Holstein,2817,,,0,FALSE,AN,151,27/03/2022,1252,total
-1,0,151AN1692,2,4,4,31/03/2022,91,Noe Gonzalez,10,1,Ovsynch,243,3739097,Red Rock Dairy,Red Rock Dairy,Holstein,1247,,,100,FALSE,AN,151,27/03/2022,383,total
-0,0,151AN1692,2,2,2,31/03/2022,63,Noe Gonzalez,10,1,Ovsynch,147,4353607,Red Rock Dairy,Red Rock Dairy,Holstein,1160,,,0,FALSE,AN,151,27/03/2022,387,total
-1,0,151AN1692,0,4,4,18/03/2022,19,Martin Medrano,14,0,Chalk,,8368527,Red Rock Dairy,Red Rock Dairy,Holstein,460,,,100,FALSE,AN,151,13/03/2022,386,total
-0,0,551h0o4429,0,3,3,18/03/2022,20,Martin Medrano,14,0,Chalk,,8224137,Red Rock Dairy,Red Rock Dairy,Holstein,428,,,0,FALSE,,,13/03/2022,388,total
-1,0,551HO4425,0,2,2,18/03/2022,22,Martin Medrano,14,1,Chalk,,8172483,Red Rock Dairy,Red Rock Dairy,Holstein,415,,,100,FALSE,HO,551,13/03/2022,393,total
-1,0,551h0o4429,0,2,2,18/03/2022,26,Martin Medrano,14,0,Chalk,,8637435,Red Rock Dairy,Red Rock Dairy,Holstein,408,,,100,FALSE,,,13/03/2022,382,total
-1,0,551HO4425,0,2,2,18/03/2022,67,Martin Medrano,14,1,Chalk,,8269955,Red Rock Dairy,Red Rock Dairy,Holstein,451,,,100,FALSE,HO,551,13/03/2022,384,total
-1,0,551h0o4429,0,2,2,18/03/2022,19,Martin Medrano,14,0,Chalk,,8637401,Red Rock Dairy,Red Rock Dairy,Holstein,407,,,100,FALSE,,,13/03/2022,388,total
-1,0,151AN1692,0,4,4,18/03/2022,17,Martin Medrano,14,0,Chalk,,8276962,Red Rock Dairy,Red Rock Dairy,Holstein,448,,,100,FALSE,AN,151,13/03/2022,388,total
-0,0,151AN1692,1,4,4,24/03/2022,35,Noe Gonzalez,8,1,Lut to Breed,186,5691469,Red Rock Dairy,Red Rock Dairy,Holstein,868,,,0,FALSE,AN,151,20/03/2022,409,total
-1,0,551HO4425,1,2,2,24/03/2022,35,Rigo Trejo,1,1,Lut to Breed,116,5809259,Red Rock Dairy,Red Rock Dairy,Holstein,783,234,,100,FALSE,HO,551,20/03/2022,748,total
-0,0,551AN1609,1,3,3,24/03/2022,35,Martin Medrano,1,1,Lut to Breed,145,5336527,Red Rock Dairy,Red Rock Dairy,Holstein,902,126,,0,FALSE,AN,551,20/03/2022,389,total
-1,0,551HO4425,1,2,2,24/03/2022,35,Rigo Trejo,1,1,Lut to Breed,112,6211655,Red Rock Dairy,Red Rock Dairy,Holstein,771,234,,100,FALSE,HO,551,20/03/2022,383,total
-0,0,551HO4425,1,2,2,24/03/2022,35,Martin Medrano,1,1,Lut to Breed,114,5801707,Red Rock Dairy,Red Rock Dairy,Holstein,785,126,,0,FALSE,HO,551,20/03/2022,398,total
-1,0,551HO4425,1,2,2,24/03/2022,35,Martin Medrano,1,1,Lut to Breed,113,5973771,Red Rock Dairy,Red Rock Dairy,Holstein,833,,,100,FALSE,HO,551,20/03/2022,389,total
-1,0,551HO4425,1,2,2,24/03/2022,35,Rigo Trejo,1,1,Lut to Breed,115,5880131,Red Rock Dairy,Red Rock Dairy,Holstein,796,246,,100,FALSE,HO,551,20/03/2022,387,total
-0,0,551HO4425,1,2,2,24/03/2022,35,Martin Medrano,1,1,Lut to Breed,113,5840516,Red Rock Dairy,Red Rock Dairy,Holstein,811,123,,0,FALSE,HO,551,20/03/2022,388,total
-1,0,551HO4425,1,2,2,24/03/2022,35,Martin Medrano,1,1,Lut to Breed,115,6213120,Red Rock Dairy,Red Rock Dairy,Holstein,772,123,,100,FALSE,HO,551,20/03/2022,384,total
-1,0,551HO4425,1,2,2,24/03/2022,35,Noe Gonzalez,1,1,Lut to Breed,115,5881523,Red Rock Dairy,Red Rock Dairy,Holstein,796,234,,100,FALSE,HO,551,20/03/2022,386,total
-1,0,551HO4425,1,2,2,24/03/2022,35,Martin Medrano,1,1,Lut to Breed,110,6223349,Red Rock Dairy,Red Rock Dairy,Holstein,766,126,,100,FALSE,HO,551,20/03/2022,386,total
-1,1,151AN1692,1,6,6,24/03/2022,35,Martin Medrano,1,1,Lut to Breed,243,5494048,Red Rock Dairy,Red Rock Dairy,Holstein,937,,,100,FALSE,AN,151,20/03/2022,388,total
-1,0,551HO4425,1,2,2,24/03/2022,35,Martin Medrano,1,1,Lut to Breed,116,6201788,Red Rock Dairy,Red Rock Dairy,Holstein,773,126,,100,FALSE,HO,551,20/03/2022,385,total
-0,0,551HO4425,1,2,2,24/03/2022,35,Noe Gonzalez,1,1,Lut to Breed,112,5801696,Red Rock Dairy,Red Rock Dairy,Holstein,785,,,0,FALSE,HO,551,20/03/2022,400,total
-0,0,151AN1692,2,4,4,24/03/2022,35,Martin Medrano,2,1,Lut to Breed,202,3713704,Red Rock Dairy,Red Rock Dairy,Holstein,1207,,,0,FALSE,AN,151,20/03/2022,386,total
-0,0,551HO4425,1,2,2,24/03/2022,35,Martin Medrano,1,1,Lut to Breed,111,5895205,Red Rock Dairy,Red Rock Dairy,Holstein,789,345,,0,FALSE,HO,551,20/03/2022,388,total
-1,1,551HO4425,1,2,2,24/03/2022,35,Martin Medrano,1,1,Lut to Breed,110,5892638,Red Rock Dairy,Red Rock Dairy,Holstein,791,561,,100,FALSE,HO,551,20/03/2022,390,total
-0,0,551HO4425,1,2,2,24/03/2022,35,Rigo Trejo,1,1,Lut to Breed,112,6220782,Red Rock Dairy,Red Rock Dairy,Holstein,767,234,,0,FALSE,HO,551,20/03/2022,386,total
-1,0,551HO4425,1,2,2,24/03/2022,35,Noe Gonzalez,1,1,Lut to Breed,116,6012356,Red Rock Dairy,Red Rock Dairy,Holstein,820,,,100,FALSE,HO,551,20/03/2022,382,total
-0,0,551HO4425,1,2,2,24/03/2022,35,Rigo Trejo,1,1,Lut to Breed,112,6223336,Red Rock Dairy,Red Rock Dairy,Holstein,766,234,,0,FALSE,HO,551,20/03/2022,384,total
-1,0,551HO4425,1,2,2,24/03/2022,35,Noe Gonzalez,1,1,Lut to Breed,112,5850311,Red Rock Dairy,Red Rock Dairy,Holstein,805,561,,100,FALSE,HO,551,20/03/2022,390,total
 1,0,551HO4355,1,1,1,05/05/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,76,6342788,Red Rock Dairy,Red Rock Dairy,Holstein,729,126,,100,FALSE,HO,551,01/05/2022,384,total
 0,0,151AN1692,2,1,1,05/05/2022,,Martin Medrano,2,1,Double Ovsynch 2PgF,79,5146718,Red Rock Dairy,Red Rock Dairy,Holstein,1080,345,,0,FALSE,AN,151,01/05/2022,384,total
 0,0,551HO4355,1,1,1,05/05/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,76,6374498,Red Rock Dairy,Red Rock Dairy,Holstein,743,234,,0,FALSE,HO,551,01/05/2022,397,total
@@ -719,7 +514,6 @@
 1,0,551h0o4429,0,1,1,22/03/2022,,Noe Gonzalez,14,0,Chalk,,8397422,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,100,FALSE,,,20/03/2022,385,total
 1,1,551h0o4429,0,1,1,22/03/2022,,Noe Gonzalez,14,0,Chalk,,8397339,Red Rock Dairy,Red Rock Dairy,Holstein,385,666,,100,FALSE,,,20/03/2022,385,total
 1,0,551h0o4429,0,1,1,22/03/2022,,Noe Gonzalez,14,0,Chalk,,8397411,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,100,FALSE,,,20/03/2022,385,total
-0,0,551h0o4429,0,2,2,22/03/2022,35,Noe Gonzalez,14,0,Chalk,,8243648,Red Rock Dairy,Red Rock Dairy,Holstein,427,,,0,FALSE,,,20/03/2022,392,total
 0,0,151AN1692,5,1,1,05/05/2022,,Noe Gonzalez,9,1,Double Ovsynch 2PgF,78,3155279,Red Rock Dairy,Red Rock Dairy,Holstein,2424,,,0,FALSE,AN,151,01/05/2022,866,total
 1,0,551HO4355,1,1,1,05/05/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,75,6334322,Red Rock Dairy,Red Rock Dairy,Holstein,733,234,,100,FALSE,HO,551,01/05/2022,387,total
 0,0,551HO4355,1,1,1,05/05/2022,,Martin Medrano,1,1,Double Ovsynch 2PgF,75,6404473,Red Rock Dairy,Red Rock Dairy,Holstein,738,561,,0,FALSE,HO,551,01/05/2022,393,total
@@ -733,21 +527,227 @@
 1,0,551h0o4429,0,1,1,23/03/2022,,Noe Gonzalez,14,0,Chalk,,8413409,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,,,20/03/2022,386,total
 0,0,551h0o4429,0,1,1,23/03/2022,,Noe Gonzalez,14,0,Chalk,,8543748,Red Rock Dairy,Red Rock Dairy,Holstein,406,,,0,FALSE,,,20/03/2022,406,total
 1,0,551h0o4429,0,1,1,23/03/2022,,Noe Gonzalez,14,0,Chalk,,8490235,Red Rock Dairy,Red Rock Dairy,Holstein,391,666,,100,FALSE,,,20/03/2022,391,total
-0,0,551HO4425,0,3,3,23/03/2022,51,Noe Gonzalez,14,1,Chalk,,7865593,Red Rock Dairy,Red Rock Dairy,Holstein,477,,,0,FALSE,HO,551,20/03/2022,384,total
 1,0,551HO4425,0,1,1,23/03/2022,,Noe Gonzalez,14,1,Chalk,,8413329,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,100,FALSE,HO,551,20/03/2022,385,total
-1,0,151AN1692,0,4,4,23/03/2022,20,Noe Gonzalez,14,0,Chalk,,8373900,Red Rock Dairy,Red Rock Dairy,Holstein,462,,,100,FALSE,AN,151,20/03/2022,383,total
-1,0,551h0o4429,0,2,2,23/03/2022,24,Noe Gonzalez,14,0,Chalk,,8543749,Red Rock Dairy,Red Rock Dairy,Holstein,407,,,100,FALSE,,,20/03/2022,383,total
-1,0,551h0o4429,0,2,2,23/03/2022,23,Noe Gonzalez,14,0,Chalk,,8642441,Red Rock Dairy,Red Rock Dairy,Holstein,412,,,100,FALSE,,,20/03/2022,389,total
-0,0,551HO4425,0,2,2,23/03/2022,23,Noe Gonzalez,14,1,Chalk,,8642454,Red Rock Dairy,Red Rock Dairy,Holstein,412,,,0,FALSE,HO,551,20/03/2022,389,total
-0,0,551h0o4429,0,2,2,23/03/2022,22,Noe Gonzalez,14,0,Chalk,,8643756,Red Rock Dairy,Red Rock Dairy,Holstein,410,,,0,FALSE,,,20/03/2022,388,total
 1,0,551h0o4429,0,1,1,24/03/2022,,Noe Gonzalez,14,0,Chalk,,8504481,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,20/03/2022,388,total
 1,1,551h0o4429,0,1,1,24/03/2022,,Noe Gonzalez,14,0,Chalk,,8230734,Red Rock Dairy,Red Rock Dairy,Holstein,433,,,100,FALSE,,,20/03/2022,433,total
-1,0,551HO4425,0,3,3,24/03/2022,21,Noe Gonzalez,21,1,Chalk,,7893796,Red Rock Dairy,Red Rock Dairy,Holstein,474,,,100,FALSE,HO,551,20/03/2022,387,total
-0,0,551h0o4429,0,2,2,24/03/2022,59,Noe Gonzalez,14,0,Chalk,,8314317,Red Rock Dairy,Red Rock Dairy,Holstein,445,,,0,FALSE,,,20/03/2022,386,total
-0,0,551HO4425,0,3,3,24/03/2022,42,Noe Gonzalez,14,1,Chalk,,8358261,Red Rock Dairy,Red Rock Dairy,Holstein,467,,,0,FALSE,HO,551,20/03/2022,387,total
 1,0,551h0o4429,0,1,1,25/03/2022,,Rigo Trejo,14,0,Chalk,,8251501,Red Rock Dairy,Red Rock Dairy,Holstein,429,,,100,FALSE,,,20/03/2022,429,total
 0,0,551AN1609,0,1,1,25/03/2022,,Rigo Trejo,14,1,Chalk,,8475463,Red Rock Dairy,Red Rock Dairy,Holstein,395,,,0,FALSE,AN,551,20/03/2022,395,total
 0,0,551h0o4429,0,1,1,25/03/2022,,Rigo Trejo,14,0,Chalk,,8458394,Red Rock Dairy,Red Rock Dairy,Holstein,397,,,0,FALSE,,,20/03/2022,397,total
+0,0,551h0o4355,0,1,1,27/03/2022,,Rigo Trejo,14,0,Chalk,,8486486,Red Rock Dairy,Red Rock Dairy,Holstein,396,,,0,FALSE,,,27/03/2022,396,total
+0,0,551h0o4355,0,1,1,27/03/2022,,Rigo Trejo,14,0,Chalk,,8443076,Red Rock Dairy,Red Rock Dairy,Holstein,388,666,,0,FALSE,,,27/03/2022,388,total
+0,0,551h0o4355,0,1,1,27/03/2022,,Rigo Trejo,14,0,Chalk,,8859360,Red Rock Dairy,Red Rock Dairy,Holstein,385,666,,0,FALSE,,,27/03/2022,385,total
+0,0,551h0o4355,0,1,1,27/03/2022,,Rigo Trejo,14,0,Chalk,,8881578,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,0,FALSE,,,27/03/2022,384,total
+0,0,551h0o4355,0,1,1,27/03/2022,,Rigo Trejo,14,0,Chalk,,8859329,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,,,27/03/2022,385,total
+1,0,551h0o4355,0,1,1,28/03/2022,,Rigo Trejo,14,0,Chalk,,8859280,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,,,27/03/2022,386,total
+1,0,551h0o4355,0,1,1,28/03/2022,,Rigo Trejo,14,0,Chalk,,8441530,Red Rock Dairy,Red Rock Dairy,Holstein,389,666,,100,FALSE,,,27/03/2022,389,total
+1,0,551h0o4355,0,1,1,28/03/2022,,Rigo Trejo,14,0,Chalk,,8859233,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,100,FALSE,,,27/03/2022,385,total
+1,0,551AN1609,0,1,1,28/03/2022,,Rigo Trejo,14,1,Chalk,,8443074,Red Rock Dairy,Red Rock Dairy,Holstein,389,666,,100,FALSE,AN,551,27/03/2022,389,total
+0,0,551h0o4355,0,1,1,28/03/2022,,Rigo Trejo,14,0,Chalk,,8475500,Red Rock Dairy,Red Rock Dairy,Holstein,399,,,0,FALSE,,,27/03/2022,399,total
+0,0,551h0o4355,0,1,1,28/03/2022,,Rigo Trejo,14,0,Chalk,,8536546,Red Rock Dairy,Red Rock Dairy,Holstein,412,,,0,FALSE,,,27/03/2022,412,total
+1,0,551h0o4355,0,1,1,28/03/2022,,Rigo Trejo,14,0,Chalk,,8899169,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,100,FALSE,,,27/03/2022,383,total
+0,0,551AN1609,0,1,1,28/03/2022,,Rigo Trejo,14,1,Chalk,,8450464,Red Rock Dairy,Red Rock Dairy,Holstein,388,666,,0,FALSE,AN,551,27/03/2022,388,total
+1,0,551h0o4355,0,1,1,28/03/2022,,Rigo Trejo,14,0,Chalk,,8450475,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,,,27/03/2022,387,total
+1,0,551h0o4355,0,1,1,28/03/2022,,Rigo Trejo,14,0,Chalk,,8883069,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,100,FALSE,,,27/03/2022,383,total
+0,0,551AN1609,0,1,1,28/03/2022,,Rigo Trejo,14,1,Chalk,,8450479,Red Rock Dairy,Red Rock Dairy,Holstein,388,666,,0,FALSE,AN,551,27/03/2022,388,total
+1,0,551AN1609,0,1,1,28/03/2022,,Rigo Trejo,14,1,Chalk,,8570699,Red Rock Dairy,Red Rock Dairy,Holstein,403,666,,100,FALSE,AN,551,27/03/2022,403,total
+0,0,551h0o4355,0,1,1,28/03/2022,,Rigo Trejo,14,0,Chalk,,8584993,Red Rock Dairy,Red Rock Dairy,Holstein,401,,,0,FALSE,,,27/03/2022,401,total
+0,0,551h0o4355,0,1,1,28/03/2022,,Rigo Trejo,14,0,Chalk,,8452954,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,0,FALSE,,,27/03/2022,386,total
+1,0,551h0o4355,0,1,1,28/03/2022,,Rigo Trejo,14,0,Chalk,,8452955,Red Rock Dairy,Red Rock Dairy,Holstein,386,666,,100,FALSE,,,27/03/2022,386,total
+1,0,551HO4425,0,1,1,29/03/2022,,Noe Gonzalez,14,1,Chalk,,8862886,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,27/03/2022,386,total
+1,0,551h0o4429,0,1,1,29/03/2022,,Noe Gonzalez,14,0,Chalk,,8443099,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,,,27/03/2022,389,total
+1,0,551HO4425,0,1,1,29/03/2022,,Noe Gonzalez,14,1,Chalk,,8452957,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,27/03/2022,387,total
+1,0,551HO4425,0,1,1,29/03/2022,,Noe Gonzalez,14,1,Chalk,,8450476,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,HO,551,27/03/2022,388,total
+1,0,551h0o4429,0,1,1,01/04/2022,,Noe Gonzalez,14,0,Chalk,,8504495,Red Rock Dairy,Red Rock Dairy,Holstein,396,,,100,FALSE,,,27/03/2022,396,total
+0,0,551HO4425,0,1,1,01/04/2022,,Noe Gonzalez,15,1,Chalk,,8905169,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,HO,551,27/03/2022,385,total
+1,0,551h0o4355,0,1,1,02/04/2022,,Rigo Trejo,14,0,Chalk,,8903369,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,,,27/03/2022,386,total
+0,0,551AN1609,0,1,1,03/04/2022,,Noe Gonzalez,14,1,Chalk,,8582403,Red Rock Dairy,Red Rock Dairy,Holstein,407,666,,0,FALSE,AN,551,03/04/2022,407,total
+0,0,551h0o4429,0,1,1,03/04/2022,,Noe Gonzalez,14,0,Chalk,,8582406,Red Rock Dairy,Red Rock Dairy,Holstein,407,,,0,FALSE,,,03/04/2022,407,total
+0,0,551h0o4429,0,1,1,03/04/2022,,Martin Medrano,14,0,Chalk,,8397332,Red Rock Dairy,Red Rock Dairy,Holstein,398,,,0,FALSE,,,03/04/2022,398,total
+1,0,551h0o4429,0,1,1,03/04/2022,,Martin Medrano,14,0,Chalk,,8907526,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,100,FALSE,,,03/04/2022,385,total
+1,0,551h0o4429,0,1,1,03/04/2022,,Noe Gonzalez,14,0,Chalk,,8397500,Red Rock Dairy,Red Rock Dairy,Holstein,398,,,100,FALSE,,,03/04/2022,398,total
+1,0,551h0o4355,0,1,1,03/04/2022,,Noe Gonzalez,15,0,Chalk,,8803098,Red Rock Dairy,Red Rock Dairy,Holstein,382,,,100,FALSE,,,03/04/2022,382,total
+0,0,551h0o4429,0,1,1,03/04/2022,,Martin Medrano,14,0,Chalk,,8494253,Red Rock Dairy,Red Rock Dairy,Holstein,400,,,0,FALSE,,,03/04/2022,400,total
+1,0,551h0o4429,0,1,1,03/04/2022,,Martin Medrano,14,0,Chalk,,8899178,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,03/04/2022,388,total
+0,0,551h0o4429,0,1,1,03/04/2022,,Martin Medrano,14,0,Chalk,,8475510,Red Rock Dairy,Red Rock Dairy,Holstein,405,,,0,FALSE,,,03/04/2022,405,total
+0,0,551HO4429,0,1,1,04/04/2022,,Noe Gonzalez,14,1,,,8494249,Red Rock Dairy,Red Rock Dairy,Holstein,400,,,0,FALSE,HO,551,03/04/2022,400,total
+1,0,551HO4425,0,1,1,04/04/2022,,Martin Medrano,14,1,,,8490187,Red Rock Dairy,Red Rock Dairy,Holstein,402,,,100,FALSE,HO,551,03/04/2022,402,total
+1,0,551HO4425,0,1,1,04/04/2022,,Noe Gonzalez,14,1,,,8904996,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,HO,551,03/04/2022,388,total
+1,0,551HO4425,0,1,1,04/04/2022,,Noe Gonzalez,14,1,,,8796792,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,100,FALSE,HO,551,03/04/2022,383,total
+1,0,551HO4425,0,1,1,04/04/2022,,Martin Medrano,14,1,,,8903407,Red Rock Dairy,Red Rock Dairy,Holstein,389,666,,100,FALSE,HO,551,03/04/2022,389,total
+0,0,551HO4429,0,1,1,04/04/2022,,Noe Gonzalez,14,1,,,8792570,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,HO,551,03/04/2022,385,total
+1,0,551HO4425,0,1,1,04/04/2022,,Martin Medrano,14,1,,,8438151,Red Rock Dairy,Red Rock Dairy,Holstein,397,,,100,FALSE,HO,551,03/04/2022,397,total
+0,0,551HO4429,0,1,1,04/04/2022,,Noe Gonzalez,14,1,,,8903414,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,0,FALSE,HO,551,03/04/2022,389,total
+0,0,551HO4425,0,1,1,04/04/2022,,Martin Medrano,14,1,,,8803185,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,0,FALSE,HO,551,03/04/2022,383,total
+0,0,551HO4429,0,1,1,04/04/2022,,Noe Gonzalez,14,1,,,8899198,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,0,FALSE,HO,551,03/04/2022,389,total
+0,0,551h0o4429,0,1,1,05/04/2022,,Noe Gonzalez,15,0,Chalk,,8796785,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,,,03/04/2022,385,total
+0,0,551AN1609,0,1,1,05/04/2022,,Noe Gonzalez,15,1,Chalk,,8792516,Red Rock Dairy,Red Rock Dairy,Holstein,385,666,,0,FALSE,AN,551,03/04/2022,385,total
+1,0,551HO4425,0,1,1,05/04/2022,,Martin Medrano,14,1,Chalk,,8907531,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,03/04/2022,387,total
+1,0,551HO4425,0,1,1,05/04/2022,,Martin Medrano,14,1,Chalk,,10189534,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,03/04/2022,386,total
+1,0,551HO4425,0,1,1,05/04/2022,,Noe Gonzalez,15,1,Chalk,,10176710,Red Rock Dairy,Red Rock Dairy,Holstein,389,666,,100,FALSE,HO,551,03/04/2022,389,total
+1,0,551AN1609,0,1,1,05/04/2022,,Noe Gonzalez,15,1,Chalk,,8792465,Red Rock Dairy,Red Rock Dairy,Holstein,386,666,,100,FALSE,AN,551,03/04/2022,386,total
+0,0,551h0o4429,0,1,1,05/04/2022,,Martin Medrano,14,0,Chalk,,8568559,Red Rock Dairy,Red Rock Dairy,Holstein,412,,,0,FALSE,,,03/04/2022,412,total
+1,0,551h0o4429,0,1,1,05/04/2022,,Martin Medrano,14,0,Chalk,,8582401,Red Rock Dairy,Red Rock Dairy,Holstein,409,,,100,FALSE,,,03/04/2022,409,total
+1,1,551AN1609,0,1,1,05/04/2022,,Noe Gonzalez,14,1,Chalk,,8903381,Red Rock Dairy,Red Rock Dairy,Holstein,389,666,,100,FALSE,AN,551,03/04/2022,389,total
+1,0,551h0o4429,0,1,1,05/04/2022,,Noe Gonzalez,14,0,Chalk,,8494254,Red Rock Dairy,Red Rock Dairy,Holstein,402,,,100,FALSE,,,03/04/2022,402,total
+1,0,551HO4425,0,1,1,05/04/2022,,Martin Medrano,14,1,Chalk,,8899197,Red Rock Dairy,Red Rock Dairy,Holstein,390,,,100,FALSE,HO,551,03/04/2022,390,total
+1,0,551h0o4429,0,1,1,05/04/2022,,Martin Medrano,14,0,Chalk,,8863640,Red Rock Dairy,Red Rock Dairy,Holstein,400,,,100,FALSE,,,03/04/2022,400,total
+1,0,551HO4425,0,1,1,06/04/2022,,Noe Gonzalez,14,1,Chalk,,10187547,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,HO,551,03/04/2022,388,total
+1,0,551h0o4429,0,1,1,06/04/2022,,Noe Gonzalez,14,0,Chalk,,8904995,Red Rock Dairy,Red Rock Dairy,Holstein,390,,,100,FALSE,,,03/04/2022,390,total
+0,0,551h0o4429,0,1,1,06/04/2022,,Noe Gonzalez,14,0,Chalk,,8480725,Red Rock Dairy,Red Rock Dairy,Holstein,407,,,0,FALSE,,,03/04/2022,407,total
+1,0,551h0o4429,0,1,1,09/04/2022,,Noe Gonzalez,14,0,Chalk,,8819301,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,,,03/04/2022,387,total
+1,0,551h0o4429,0,1,1,09/04/2022,,Noe Gonzalez,14,0,Chalk,,8899186,Red Rock Dairy,Red Rock Dairy,Holstein,394,,,100,FALSE,,,03/04/2022,394,total
+1,0,551AN1609,0,1,1,10/04/2022,,Rigo Trejo,14,1,Chalk,,8802464,Red Rock Dairy,Red Rock Dairy,Holstein,388,666,,100,FALSE,AN,551,10/04/2022,388,total
+0,0,551h0o4429,0,1,1,10/04/2022,,Rigo Trejo,14,0,Chalk,,8840169,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,,,10/04/2022,385,total
+0,0,551h0o4429,0,1,1,10/04/2022,,Rigo Trejo,14,0,Chalk,,8441529,Red Rock Dairy,Red Rock Dairy,Holstein,402,,,0,FALSE,,,10/04/2022,402,total
+1,0,551HO4355,1,1,1,05/05/2022,,Martin Medrano,1,1,Double Ovsynch 2PgF,105,6474064,Red Rock Dairy,Red Rock Dairy,Holstein,758,561,,100,FALSE,HO,551,01/05/2022,384,total
+0,0,551HO4355,1,1,1,05/05/2022,,Rigo Trejo,1,1,Double Ovsynch 2PgF,106,6453867,Red Rock Dairy,Red Rock Dairy,Holstein,768,246,,0,FALSE,HO,551,01/05/2022,388,total
+1,0,551HO4425,0,1,1,11/04/2022,,Noe Gonzalez,14,1,Chalk,,8845335,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,100,FALSE,HO,551,10/04/2022,384,total
+1,0,551HO4425,0,1,1,11/04/2022,,Rigo Trejo,14,1,Chalk,,8718999,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,100,FALSE,HO,551,10/04/2022,384,total
+1,0,551h0o4429,0,1,1,11/04/2022,,Rigo Trejo,14,0,Chalk,,8719078,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,100,FALSE,,,10/04/2022,383,total
+0,0,551h0o4429,0,1,1,11/04/2022,,Noe Gonzalez,14,0,Chalk,,8826209,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,0,FALSE,,,10/04/2022,386,total
+0,0,551HO4425,0,1,1,11/04/2022,,Rigo Trejo,14,1,Chalk,,8840176,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,HO,551,10/04/2022,385,total
+1,0,551HO4425,0,1,1,11/04/2022,,Rigo Trejo,14,1,Chalk,,8819224,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,HO,551,10/04/2022,389,total
+1,0,551h0o4429,0,1,1,11/04/2022,,Noe Gonzalez,14,0,Chalk,,8840177,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,100,FALSE,,,10/04/2022,385,total
+0,0,551h0o4429,0,1,1,11/04/2022,,Noe Gonzalez,14,0,Chalk,,8845315,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,,,10/04/2022,385,total
+1,0,551HO4425,0,1,1,11/04/2022,,Noe Gonzalez,14,1,Chalk,,8826213,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,10/04/2022,387,total
+1,0,551HO4425,0,1,1,12/04/2022,,Noe Gonzalez,14,1,Chalk,,8819230,Red Rock Dairy,Red Rock Dairy,Holstein,390,,,100,FALSE,HO,551,10/04/2022,390,total
+1,0,551h0o4429,0,1,1,12/04/2022,,Noe Gonzalez,14,0,Chalk,,8845312,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,,,10/04/2022,386,total
+0,0,551h0o4429,0,1,1,12/04/2022,,Noe Gonzalez,14,0,Chalk,,8859358,Red Rock Dairy,Red Rock Dairy,Holstein,400,,,0,FALSE,,,10/04/2022,400,total
+0,0,551h0o4429,0,1,1,13/04/2022,,Noe Gonzalez,14,0,Chalk,,8796741,Red Rock Dairy,Red Rock Dairy,Holstein,392,,,0,FALSE,,,10/04/2022,392,total
+1,0,551h0o4429,0,1,1,13/04/2022,,Noe Gonzalez,14,0,Chalk,,8480712,Red Rock Dairy,Red Rock Dairy,Holstein,414,,,100,FALSE,,,10/04/2022,414,total
+1,0,551HO4425,0,1,1,16/04/2022,,Noe Gonzalez,14,1,Chalk,,8755304,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,100,FALSE,HO,551,10/04/2022,383,total
+0,0,551h0o4429,0,1,1,17/04/2022,,Rigo Trejo,14,0,Chalk,,8755305,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,0,FALSE,,,17/04/2022,384,total
+1,0,551h0o4429,0,1,1,17/04/2022,,Rigo Trejo,14,0,Chalk,,8755312,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,100,FALSE,,,17/04/2022,383,total
+0,0,551h0o4429,0,1,1,17/04/2022,,Rigo Trejo,14,0,Chalk,,8729125,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,0,FALSE,,,17/04/2022,387,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8729127,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,HO,551,17/04/2022,388,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,15,1,Chalk,,8760949,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,100,FALSE,HO,551,17/04/2022,383,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8728480,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,HO,551,17/04/2022,389,total
+0,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8732110,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,0,FALSE,HO,551,17/04/2022,387,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8796797,Red Rock Dairy,Red Rock Dairy,Holstein,398,,,100,FALSE,HO,551,17/04/2022,398,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8775053,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,100,FALSE,HO,551,17/04/2022,384,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8741642,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,17/04/2022,386,total
+0,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8728457,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,0,FALSE,HO,551,17/04/2022,389,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8732115,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,17/04/2022,386,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8741732,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,100,FALSE,HO,551,17/04/2022,385,total
+0,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8755306,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,HO,551,17/04/2022,385,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8741639,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,17/04/2022,386,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8792562,Red Rock Dairy,Red Rock Dairy,Holstein,399,,,100,FALSE,HO,551,17/04/2022,399,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8741681,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,17/04/2022,386,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8725509,Red Rock Dairy,Red Rock Dairy,Holstein,389,666,,100,FALSE,HO,551,17/04/2022,389,total
+0,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8732113,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,0,FALSE,HO,551,17/04/2022,386,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8732109,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,17/04/2022,387,total
+0,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8732114,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,0,FALSE,HO,551,17/04/2022,386,total
+0,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8732108,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,0,FALSE,HO,551,17/04/2022,387,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8732107,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,17/04/2022,387,total
+0,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8725518,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,0,FALSE,HO,551,17/04/2022,389,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8741665,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,17/04/2022,386,total
+0,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,15,1,Chalk,,8760941,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,0,FALSE,HO,551,17/04/2022,384,total
+1,0,551AN1609,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8728488,Red Rock Dairy,Red Rock Dairy,Holstein,389,666,,100,FALSE,AN,551,17/04/2022,389,total
+1,1,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8796743,Red Rock Dairy,Red Rock Dairy,Holstein,397,,,100,FALSE,HO,551,17/04/2022,397,total
+1,0,551HO4425,0,1,1,18/04/2022,,Rigo Trejo,14,1,Chalk,,8732106,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,17/04/2022,387,total
+1,0,551HO4425,0,1,1,19/04/2022,,Noe Gonzalez,14,1,Chalk,,8732118,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,17/04/2022,387,total
+1,0,551HO4425,0,1,1,19/04/2022,,Noe Gonzalez,14,1,Chalk,,8728551,Red Rock Dairy,Red Rock Dairy,Holstein,389,666,,100,FALSE,HO,551,17/04/2022,389,total
+0,0,551HO4425,0,1,1,19/04/2022,,Noe Gonzalez,14,1,Chalk,,8755308,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,0,FALSE,HO,551,17/04/2022,386,total
+1,0,551HO4425,0,1,1,19/04/2022,,Noe Gonzalez,14,1,Chalk,,8729134,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,HO,551,17/04/2022,389,total
+0,0,551h0o4429,0,1,1,19/04/2022,,Noe Gonzalez,14,0,Chalk,,8729120,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,0,FALSE,,,17/04/2022,389,total
+0,0,551h0o4429,0,1,1,19/04/2022,,Noe Gonzalez,14,0,Chalk,,8728452,Red Rock Dairy,Red Rock Dairy,Holstein,390,,,0,FALSE,,,17/04/2022,390,total
+0,0,551h0o4429,0,1,1,19/04/2022,,Noe Gonzalez,14,0,Chalk,,8796740,Red Rock Dairy,Red Rock Dairy,Holstein,398,,,0,FALSE,,,17/04/2022,398,total
+0,0,551HO4425,0,1,1,19/04/2022,,Noe Gonzalez,14,1,Chalk,,8741737,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,0,FALSE,HO,551,17/04/2022,386,total
+1,0,551HO4425,0,1,1,19/04/2022,,Noe Gonzalez,14,1,Chalk,,8741645,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,17/04/2022,387,total
+1,0,551h0o4429,0,1,1,19/04/2022,,Noe Gonzalez,14,0,Chalk,,8732097,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,17/04/2022,388,total
+1,0,551h0o4429,0,1,1,19/04/2022,,Noe Gonzalez,14,0,Chalk,,8755310,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,100,FALSE,,,17/04/2022,385,total
+1,0,551h0o4429,0,1,1,19/04/2022,,Noe Gonzalez,14,0,Chalk,,8732096,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,17/04/2022,388,total
+0,0,551HO4425,0,1,1,20/04/2022,,Noe Gonzalez,14,1,Chalk,,8725514,Red Rock Dairy,Red Rock Dairy,Holstein,391,,,0,FALSE,HO,551,17/04/2022,391,total
+1,0,551HO4425,0,1,1,20/04/2022,,Noe Gonzalez,14,1,Chalk,,8775143,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,17/04/2022,386,total
+0,0,551h0o4429,0,1,1,21/04/2022,,Rigo Trejo,14,0,Chalk,,8881577,Red Rock Dairy,Red Rock Dairy,Holstein,409,,,0,FALSE,,,17/04/2022,409,total
+1,0,551h0o4429,0,1,1,21/04/2022,,Rigo Trejo,14,0,Chalk,,8729122,Red Rock Dairy,Red Rock Dairy,Holstein,391,,,100,FALSE,,,17/04/2022,391,total
+1,0,551HO4425,0,1,1,23/04/2022,,Rigo Trejo,14,1,Chalk,,8657245,Red Rock Dairy,Red Rock Dairy,Holstein,381,,,100,FALSE,HO,551,17/04/2022,381,total
+1,0,551h0o4429,0,1,1,24/04/2022,,Rigo Trejo,14,0,Chalk,,8656203,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,100,FALSE,,,24/04/2022,383,total
+0,0,551h0o4429,0,1,1,24/04/2022,,Rigo Trejo,14,0,Chalk,,8656240,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,0,FALSE,,,24/04/2022,384,total
+0,0,551h0o4429,0,1,1,24/04/2022,,Rigo Trejo,14,0,Chalk,,8667736,Red Rock Dairy,Red Rock Dairy,Holstein,382,,,0,FALSE,,,24/04/2022,382,total
+1,0,551AN1609,0,1,1,24/04/2022,,Rigo Trejo,14,1,Chalk,,8651281,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,100,FALSE,AN,551,24/04/2022,384,total
+1,0,551h0o4429,0,1,1,24/04/2022,,Rigo Trejo,14,0,Chalk,,8656202,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,100,FALSE,,,24/04/2022,383,total
+1,0,551h0o4429,0,1,1,25/04/2022,,Rigo Trejo,14,0,Chalk,,8776642,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,,,24/04/2022,389,total
+0,0,551h0o4429,0,1,1,25/04/2022,,Rigo Trejo,14,0,Chalk,,8780569,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,0,FALSE,,,24/04/2022,387,total
+1,0,551h0o4429,0,1,1,25/04/2022,,Rigo Trejo,14,0,Chalk,,8780568,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,,,24/04/2022,387,total
+1,0,551AN1609,0,1,1,25/04/2022,,Rigo Trejo,14,1,Chalk,,8774732,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,AN,551,24/04/2022,389,total
+0,0,551h0o4429,0,1,1,25/04/2022,,Rigo Trejo,14,0,Chalk,,8778116,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,0,FALSE,,,24/04/2022,388,total
+0,0,551h0o4429,0,1,1,25/04/2022,,Rigo Trejo,14,0,Chalk,,8780571,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,0,FALSE,,,24/04/2022,387,total
+1,0,551h0o4429,0,1,1,25/04/2022,,Rigo Trejo,14,0,Chalk,,8774728,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,,,24/04/2022,389,total
+1,0,551h0o4429,0,1,1,25/04/2022,,Rigo Trejo,14,0,Chalk,,8778212,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,24/04/2022,388,total
+0,0,551h0o4429,0,1,1,26/04/2022,,Noe Gonzalez,14,0,Chalk,,8774742,Red Rock Dairy,Red Rock Dairy,Holstein,390,,,0,FALSE,,,24/04/2022,390,total
+1,0,551HO4425,0,1,1,26/04/2022,,Noe Gonzalez,14,1,Chalk,,8651280,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,24/04/2022,386,total
+1,0,551HO4425,0,1,1,26/04/2022,,Noe Gonzalez,14,1,Chalk,,8776652,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,HO,551,24/04/2022,389,total
+1,0,551HO4425,0,1,1,26/04/2022,,Noe Gonzalez,14,1,Chalk,,8780644,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,24/04/2022,387,total
+1,0,551h0o4429,0,1,1,26/04/2022,,Noe Gonzalez,14,0,Chalk,,8651295,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,,,24/04/2022,386,total
+1,1,551h0o4429,0,1,1,26/04/2022,,Noe Gonzalez,14,0,Chalk,,8780643,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,,,24/04/2022,387,total
+0,0,551HO4425,0,1,1,26/04/2022,,Noe Gonzalez,14,1,Chalk,,8776646,Red Rock Dairy,Red Rock Dairy,Holstein,390,,,0,FALSE,HO,551,24/04/2022,390,total
+0,0,551HO4425,0,1,1,26/04/2022,,Noe Gonzalez,14,1,Chalk,,8780646,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,0,FALSE,HO,551,24/04/2022,387,total
+1,0,551HO4425,0,1,1,26/04/2022,,Noe Gonzalez,14,1,Chalk,,8776655,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,HO,551,24/04/2022,389,total
+0,0,551h0o4429,0,1,1,26/04/2022,,Noe Gonzalez,15,0,Chalk,,8656192,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,,,24/04/2022,385,total
+1,0,551HO4425,0,1,1,26/04/2022,,Noe Gonzalez,14,1,Chalk,,8651271,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,24/04/2022,387,total
+1,0,551HO4425,0,1,1,27/04/2022,,Noe Gonzalez,14,1,Chalk,,8780647,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,HO,551,24/04/2022,389,total
+0,0,551h0o4429,0,1,1,28/04/2022,,Noe Gonzalez,14,0,Chalk,,8728462,Red Rock Dairy,Red Rock Dairy,Angus,399,,,,TRUE,,,24/04/2022,399,total
+1,0,551AN1609,0,1,1,28/04/2022,,Noe Gonzalez,14,1,Chalk,,8881587,Red Rock Dairy,Red Rock Dairy,Holstein,415,666,,100,FALSE,AN,551,24/04/2022,415,total
+1,0,551HO4425,0,1,1,30/04/2022,,Rigo Trejo,14,1,Chalk,,8719079,Red Rock Dairy,Red Rock Dairy,Holstein,402,,,100,FALSE,HO,551,24/04/2022,402,total
+1,0,551HO4425,0,1,1,30/04/2022,,Rigo Trejo,14,1,Chalk,,8698967,Red Rock Dairy,Red Rock Dairy,Holstein,381,,,100,FALSE,HO,551,24/04/2022,381,total
+1,0,551h0o4429,0,1,1,01/05/2022,,Martin Medrano,14,0,Chalk,,8685659,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,100,FALSE,,,01/05/2022,383,total
+1,0,551h0o4429,0,1,1,01/05/2022,,Rigo Trejo,14,0,Chalk,,8698955,Red Rock Dairy,Red Rock Dairy,Holstein,382,,,100,FALSE,,,01/05/2022,382,total
+1,0,551h0o4429,0,1,1,01/05/2022,,Rigo Trejo,14,0,Chalk,,8680606,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,100,FALSE,,,01/05/2022,385,total
+0,0,551h0o4429,0,1,1,01/05/2022,,Rigo Trejo,14,0,Chalk,,8845317,Red Rock Dairy,Red Rock Dairy,Holstein,405,666,,0,FALSE,,,01/05/2022,405,total
+0,0,551h0o4429,0,1,1,01/05/2022,,Rigo Trejo,14,0,Chalk,,8671554,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,0,FALSE,,,01/05/2022,388,total
+0,0,551h0o4429,0,1,1,01/05/2022,,Rigo Trejo,14,0,Chalk,,8685657,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,0,FALSE,,,01/05/2022,383,total
+1,0,551h0o4429,0,1,1,01/05/2022,,Martin Medrano,15,0,Chalk,,8698957,Red Rock Dairy,Red Rock Dairy,Holstein,382,,,100,FALSE,,,01/05/2022,382,total
+0,0,551HO4425,0,1,1,02/05/2022,,Noe Gonzalez,14,1,Chalk,,8685660,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,0,FALSE,HO,551,01/05/2022,384,total
+0,0,551AN1609,0,1,1,02/05/2022,,Noe Gonzalez,14,1,Chalk,,8732117,Red Rock Dairy,Red Rock Dairy,Holstein,400,666,,0,FALSE,AN,551,01/05/2022,400,total
+1,0,551HO4425,0,1,1,02/05/2022,,Noe Gonzalez,14,1,Chalk,,8698949,Red Rock Dairy,Red Rock Dairy,Holstein,384,666,,100,FALSE,HO,551,01/05/2022,384,total
+1,0,551HO4425,0,1,1,02/05/2022,,Noe Gonzalez,14,1,Chalk,,8668065,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,HO,551,01/05/2022,389,total
+1,0,551HO4425,0,1,1,02/05/2022,,Rigo Trejo,14,1,Chalk,,8680601,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,01/05/2022,386,total
+1,0,551HO4425,0,1,1,02/05/2022,,Rigo Trejo,14,1,Chalk,,8680604,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,01/05/2022,386,total
+1,0,551HO4425,0,1,1,02/05/2022,,Noe Gonzalez,14,1,Chalk,,8668070,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,HO,551,01/05/2022,389,total
+1,0,551HO4425,0,1,1,02/05/2022,,Noe Gonzalez,14,1,Chalk,,8675794,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,01/05/2022,387,total
+0,0,551HO4425,0,1,1,02/05/2022,,Rigo Trejo,14,1,Chalk,,8680685,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,HO,551,01/05/2022,385,total
+1,0,551h0o4429,0,1,1,02/05/2022,,Rigo Trejo,14,0,Chalk,,8698953,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,100,FALSE,,,01/05/2022,383,total
+0,0,551h0o4429,0,1,1,02/05/2022,,Rigo Trejo,14,0,Chalk,,8671565,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,0,FALSE,,,01/05/2022,389,total
+0,0,551h0o4429,0,1,1,02/05/2022,,Rigo Trejo,14,0,Chalk,,8671552,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,0,FALSE,,,01/05/2022,389,total
+0,0,551JE01772,0,1,1,02/05/2022,,Rigo Trejo,14,1,Chalk,,8741661,Red Rock Dairy,Red Rock Dairy,Jersey,399,,,0,FALSE,JE,551,01/05/2022,399,total
+0,0,551h0o4429,0,1,1,02/05/2022,,Rigo Trejo,14,0,Chalk,,8859250,Red Rock Dairy,Red Rock Dairy,Holstein,420,,,0,FALSE,,,01/05/2022,420,total
+1,0,551HO4425,0,1,1,03/05/2022,,Noe Gonzalez,14,1,Chalk,,8677170,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,HO,551,01/05/2022,388,total
+1,0,551h0o4429,0,1,1,03/05/2022,,Noe Gonzalez,14,0,Chalk,,8671577,Red Rock Dairy,Red Rock Dairy,Holstein,390,,,100,FALSE,,,01/05/2022,390,total
+0,0,551h0o4429,0,1,1,03/05/2022,,Noe Gonzalez,14,0,Chalk,,8671579,Red Rock Dairy,Red Rock Dairy,Holstein,390,,,0,FALSE,,,01/05/2022,390,total
+0,0,551HO4425,0,1,1,03/05/2022,,Noe Gonzalez,14,1,Chalk,,8677178,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,0,FALSE,HO,551,01/05/2022,388,total
+1,0,551HO4425,0,1,1,03/05/2022,,Noe Gonzalez,14,1,Chalk,,8680679,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,01/05/2022,386,total
+1,0,551AN1609,0,1,1,03/05/2022,,Noe Gonzalez,14,1,Chalk,,8899173,Red Rock Dairy,Red Rock Dairy,Holstein,419,666,,100,FALSE,AN,551,01/05/2022,419,total
+1,0,551HO4425,0,1,1,03/05/2022,,Noe Gonzalez,14,1,Chalk,,8685642,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,100,FALSE,HO,551,01/05/2022,386,total
+1,0,551HO4425,0,1,1,03/05/2022,,Noe Gonzalez,14,1,Chalk,,8668067,Red Rock Dairy,Red Rock Dairy,Holstein,390,,,100,FALSE,HO,551,01/05/2022,390,total
+0,0,551h0o4429,0,1,1,04/05/2022,,Noe Gonzalez,14,0,Chalk,,8778225,Red Rock Dairy,Red Rock Dairy,Holstein,396,,,0,FALSE,,,01/05/2022,396,total
+0,0,551HO4425,0,1,1,06/05/2022,,Rigo Trejo,14,1,Chalk,,8883049,Red Rock Dairy,Red Rock Dairy,Holstein,423,,,0,FALSE,HO,551,01/05/2022,423,total
+0,0,551AN1609,0,1,1,08/05/2022,,Rigo Trejo,14,1,Chalk,,9134963,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,0,FALSE,AN,551,08/05/2022,383,total
+0,0,551AN1609,0,1,1,08/05/2022,,Rigo Trejo,14,1,Chalk,,9134917,Red Rock Dairy,Red Rock Dairy,Holstein,383,,,0,FALSE,AN,551,08/05/2022,383,total
+0,0,551h0o4429,0,1,1,08/05/2022,,Noe Gonzalez,14,0,Chalk,,9113087,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,0,FALSE,,,08/05/2022,384,total
+1,0,551HO4425,0,1,1,08/05/2022,,Rigo Trejo,14,1,Chalk,,9113079,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,100,FALSE,HO,551,08/05/2022,384,total
+1,0,551HO4425,0,1,1,08/05/2022,,Noe Gonzalez,14,1,Chalk,,8713425,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,HO,551,08/05/2022,387,total
+0,0,551HO4425,0,1,1,08/05/2022,,Noe Gonzalez,14,1,Chalk,,9113057,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,0,FALSE,HO,551,08/05/2022,385,total
+1,0,551h0o4429,0,1,1,08/05/2022,,Rigo Trejo,14,0,Chalk,,8718994,Red Rock Dairy,Red Rock Dairy,Holstein,410,,,100,FALSE,,,08/05/2022,410,total
+0,0,551h0o4429,0,1,1,08/05/2022,,Noe Gonzalez,14,0,Chalk,,9141605,Red Rock Dairy,Red Rock Dairy,Holstein,382,,,,TRUE,,,08/05/2022,382,total
+0,0,551h0o4429,0,1,1,09/05/2022,,Noe Gonzalez,14,0,Chalk,,8711244,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,0,FALSE,,,08/05/2022,389,total
+1,0,551h0o4429,0,1,1,09/05/2022,,Noe Gonzalez,14,0,Chalk,,8713251,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,08/05/2022,388,total
+0,0,551h0o4429,0,1,1,09/05/2022,,Noe Gonzalez,14,0,Chalk,,8776649,Red Rock Dairy,Red Rock Dairy,Holstein,402,,,0,FALSE,,,08/05/2022,402,total
+0,0,551h0o4429,0,1,1,09/05/2022,,Noe Gonzalez,14,0,Chalk,,8715026,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,0,FALSE,,,08/05/2022,387,total
+0,0,551h0o4429,0,1,1,09/05/2022,,Noe Gonzalez,14,0,Chalk,,8656250,Red Rock Dairy,Red Rock Dairy,Holstein,399,,,,TRUE,,,08/05/2022,399,total
+0,0,551HO4425,0,1,1,09/05/2022,,Noe Gonzalez,14,1,Chalk,,9113061,Red Rock Dairy,Red Rock Dairy,Holstein,386,,,0,FALSE,HO,551,08/05/2022,386,total
+1,0,551HO4425,0,1,1,09/05/2022,,Noe Gonzalez,14,1,Chalk,,8778129,Red Rock Dairy,Red Rock Dairy,Holstein,402,,,100,FALSE,HO,551,08/05/2022,402,total
+0,0,551h0o4429,0,1,1,09/05/2022,,Noe Gonzalez,14,0,Chalk,,8711246,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,0,FALSE,,,08/05/2022,389,total
+1,0,551h0o4429,0,1,1,09/05/2022,,Noe Gonzalez,14,0,Chalk,,8711241,Red Rock Dairy,Red Rock Dairy,Holstein,389,,,100,FALSE,,,08/05/2022,389,total
+1,0,551h0o4429,0,1,1,09/05/2022,,Noe Gonzalez,14,0,Chalk,,9135027,Red Rock Dairy,Red Rock Dairy,Holstein,385,,,100,FALSE,,,08/05/2022,385,total
+0,0,551h0o4429,0,1,1,10/05/2022,,Noe Gonzalez,14,0,Chalk,,9141533,Red Rock Dairy,Red Rock Dairy,Holstein,384,,,0,FALSE,,,08/05/2022,384,total
+1,0,551h0o4429,0,1,1,10/05/2022,,Noe Gonzalez,14,0,Chalk,,9113071,Red Rock Dairy,Red Rock Dairy,Holstein,387,,,100,FALSE,,,08/05/2022,387,total
+0,0,551h0o4429,0,1,1,10/05/2022,,Noe Gonzalez,14,0,Chalk,,8715039,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,0,FALSE,,,08/05/2022,388,total
+0,0,551h0o4429,0,1,1,10/05/2022,,Noe Gonzalez,14,0,Chalk,,8715038,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,0,FALSE,,,08/05/2022,388,total
+1,0,551h0o4429,0,1,1,10/05/2022,,Noe Gonzalez,14,0,Chalk,,8776651,Red Rock Dairy,Red Rock Dairy,Holstein,403,,,100,FALSE,,,08/05/2022,403,total
+1,0,551h0o4429,0,1,1,10/05/2022,,Noe Gonzalez,14,0,Chalk,,9111007,Red Rock Dairy,Red Rock Dairy,Holstein,388,,,100,FALSE,,,08/05/2022,388,total
+0,0,151AN1692,2,1,1,07/04/2022,,Martin Medrano,9,0,Double Ovsynch 2PgF,61,3752313,Red Rock Dairy,Red Rock Dairy,Holstein,1250,,,0,FALSE,AN,151,03/04/2022,385,total
+0,0,151AN1692,7,1,1,07/04/2022,,Martin Medrano,9,0,Double Ovsynch 2PgF,60,3152086,Red Rock Dairy,Red Rock Dairy,Holstein,3035,,,0,FALSE,AN,151,03/04/2022,837,total
 0,0,551AN1609,0,3,3,25/03/2022,21,Rigo Trejo,14,1,Chalk,,8232692,Red Rock Dairy,Red Rock Dairy,Holstein,433,,,0,FALSE,AN,551,20/03/2022,388,total
 1,0,551h0o4429,0,2,2,26/03/2022,20,Rigo Trejo,14,0,Chalk,,8548472,Red Rock Dairy,Red Rock Dairy,Holstein,406,,,100,FALSE,,,20/03/2022,386,total
 1,0,551h0o4429,0,3,3,26/03/2022,20,Rigo Trejo,14,0,Chalk,,8206762,Red Rock Dairy,Red Rock Dairy,Holstein,441,,,100,FALSE,,,20/03/2022,400,total

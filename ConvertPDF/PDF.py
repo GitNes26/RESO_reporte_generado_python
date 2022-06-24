@@ -1,5 +1,6 @@
 import moment #pip install moment
-from fpdf import FPDF as FPDF #pip install fpdf
+from fpdf import FPDF as FPDF
+from pymysql import NULL #pip install fpdf
 from ConvertPDF.stylesPDF import *
 
 class PDF(FPDF):
@@ -70,18 +71,30 @@ class PDF(FPDF):
       TextColor(self, 'black')
       self.multi_cell(w=width, h=8, txt=str(text), border=border, fill=1, align='C')
    
-   def Column(self, text='', width=0, border=0):
-      FontSize(self, self.text_size)
-      FontStyle(self, 'Arial', '')
+   def Column(self, text='', value=NULL, metas=NULL, width=0, border=0):
       BackgroundColor(self, 'full_white')
       TextColor(self, 'black')
+      FontSize(self, self.text_size)
+      FontStyle(self, 'Arial', '')
+      if metas is not NULL:
+         if float(value) < metas:
+            BackgroundColor(self, 'red')
+            FontStyle(self, 'Arial', 'B')
+            TextColor(self, 'white')
+         
       self.cell(w=width, h=5, txt=str(text), border=border, fill=1, align='C')
 
-   def LastColumn(self, text='', width=0, border=0):
-      FontSize(self, self.text_size)
-      FontStyle(self, 'Arial', '')
+   def LastColumn(self, text='', value=NULL, metas=NULL, width=0, border=0):
       BackgroundColor(self, 'full_white')
       TextColor(self, 'black')
+      FontSize(self, self.text_size)
+      FontStyle(self, 'Arial', '')
+      if metas is not NULL:
+         if float(value) < metas:
+            BackgroundColor(self, 'red')
+            FontStyle(self, 'Arial', 'B')
+            TextColor(self, 'white')
+
       self.multi_cell(w=width, h=5, txt=str(text), border=border, fill=1, align='C')
       
    def FooterColumn(self, text='', width=0, border=0):

@@ -101,9 +101,9 @@ def AddRegisterGroupedbyLactOnlyEv(table, register_list, groupby, filter, groupb
       register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
       register.ConceptAbortRate = Mean((register.CowsPreg-register.CowsAbort), register.CuentaPreg2)
    
-   if groupby_lact is False:
+   if groupby_lact is False and register.CuentaPreg2 > 0:
       table.Registers.append(register)
-   if groupby_lact is True and groupby==last_lact:
+   if groupby_lact is True and groupby==last_lact and register.CuentaPreg2 > 0:
       table.Registers.append(register)
 
 def AddRegisterGroupedbyLactMuchEv(table, register_list, groupby_list, filter, groupby_lact, register_grouped, last_lact, groupby_lact_or_more, last_env):
@@ -138,9 +138,9 @@ def AddRegisterGroupedbyLactMuchEv(table, register_list, groupby_list, filter, g
       if register.CuentaPreg2 > 0:
          register.BredOpenSum = register.CuentaPreg2 - register.CowsPreg
       
-      if groupby_lact is False:
+      if groupby_lact is False and register.CuentaPreg2 > 0:
          table.Registers.append(register)
-      if groupby_lact is True and lact==last_lact and filter==last_env:
+      if groupby_lact is True and lact==last_lact and filter==last_env and register.CuentaPreg2 > 0:
          table.Registers.append(register)
 
 def GroupRegisterGroupedbyLactByFilter(table, register_list, groupby_list, groupby_lact, register_grouped, last_lact, groupby_lact_or_more):
@@ -173,9 +173,9 @@ def GroupRegisterGroupedbyLactByFilter(table, register_list, groupby_list, group
          register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
          register.ConceptAbortRate = Mean((register.CowsPreg-register.CowsAbort), register.CuentaPreg2)
 
-      if groupby_lact is False:
+      if groupby_lact is False and register.CuentaPreg2 > 0:
          table.Registers.append(register)
-   if groupby_lact is True and lact==last_lact:
+   if groupby_lact is True and lact==last_lact and register.CuentaPreg2 > 0:
       register.EtiquetaDeFila = f"{groupby_lact_or_more}+"
       table.Registers.append(register)
      
@@ -203,7 +203,9 @@ def AddRegisterOnlyEv(table, register_list, groupby, filter):
       register.ConceptAbortRate = Mean((register.CowsPreg-register.CowsAbort), register.CuentaPreg2)
       register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
       register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
-   table.Registers.append(register)
+   
+   if register.CuentaPreg2 > 0:
+      table.Registers.append(register)
  
 def AddRegisterMuchEv(table, register_list, groupby_list, filter):
    """Caluclar los campos de la tabla con más de un filtro"""
@@ -224,7 +226,8 @@ def AddRegisterMuchEv(table, register_list, groupby_list, filter):
          if item.BredUnk==True:
             register.BredUnk += 1
          register.CuentaPreg2 += 1
-         
+
+   if register.CuentaPreg2 > 0:
       table.Registers.append(register)
    
 def GroupRegisterByFilter(table, register_list, groupby_list):
@@ -250,7 +253,9 @@ def GroupRegisterByFilter(table, register_list, groupby_list):
          register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
          register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
          register.ConceptAbortRate = Mean((register.CowsPreg-register.CowsAbort), register.CuentaPreg2)
-      table.Registers.append(register)
+      
+      if register.CuentaPreg2 > 0:
+         table.Registers.append(register)
          
 def Totals(tables):
    """Calcular Totales de tabla"""
@@ -266,9 +271,10 @@ def Totals(tables):
          total_preg += register.CowsPreg
          total_abort += register.CowsAbort
 
-      table.TotalPromedioPreg = Mean(table.TotalSumaPreg, table.TotalCuentaPreg2)
-      table.TotalPromedioAbortRes = Mean(total_abort, table.TotalCuentaPreg2)
-      table.TotalConceptAbortRate = Mean((total_preg - total_abort), table.TotalCuentaPreg2)
+      if table.TotalCuentaPreg2 > 0:
+         table.TotalPromedioPreg = Mean(table.TotalSumaPreg, table.TotalCuentaPreg2)
+         table.TotalPromedioAbortRes = Mean(total_abort, table.TotalCuentaPreg2)
+         table.TotalConceptAbortRate = Mean((total_preg - total_abort), table.TotalCuentaPreg2)
 
       
 
@@ -389,6 +395,16 @@ def AddTablesGroupbySireBullFilterLact(grouped_registers, sireBull_list, lact_li
          table = Table()
          temporal_table = Table()
          continue
+      if lact == 1:
+         table = Table()
+         table.TitleTable = f"Datos agrupados por sireBull y filtrados por #Lact {lact}"            
+         for sireBull in sireBull_list:
+            AddRegisterOnlyEv(table, grouped_registers, sireBull, lact)
+         tables.append(table)
+
+         table = Table()
+         temporal_table = Table()
+         continue
       else:
          if 'table' in locals():
             if len(table.Registers) == 0 and len(temporal_table.Registers) == 0:
@@ -418,6 +434,16 @@ def AddTablesGroupbyEvSireStudCdFilterLact(grouped_registers, evSireStudCd_list,
    for lact in lact_list:
       mas_de_un_ev = False
       if lact == 0:
+         table = Table()
+         table.TitleTable = f"Datos agrupados por evSireStudCd y filtrados por #Lact {lact}"            
+         for evSireStudCd in evSireStudCd_list:
+            AddRegisterOnlyEv(table, grouped_registers, evSireStudCd, lact)
+         tables.append(table)
+
+         table = Table()
+         temporal_table = Table()
+         continue
+      if lact == 1:
          table = Table()
          table.TitleTable = f"Datos agrupados por evSireStudCd y filtrados por #Lact {lact}"            
          for evSireStudCd in evSireStudCd_list:

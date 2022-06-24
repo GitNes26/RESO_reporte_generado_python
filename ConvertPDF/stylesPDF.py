@@ -5,7 +5,8 @@ def color_dictionary(color):
          'blue_header' : (0, 0, 255),
          'gray' : (52, 58, 64), 
          'white' : (233, 236, 239), 
-         'full_white' : (255, 255, 255), 
+         'full_white' : (255, 255, 255),
+         'red' : (235, 83, 83),
       }
       return colors[color]
 
