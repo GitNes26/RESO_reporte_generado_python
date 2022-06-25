@@ -56,3 +56,41 @@ pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/p
 Archivo ejecutado... 24-06-2022 16:06:03
 pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
 
+Archivo ejecutado... 25-06-2022 09:48:34
+Archivo ejecutado... 25-06-2022 10:03:12
+Archivo ejecutado... 25-06-2022 10:37:12
+pruebasPDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasPDF.pdf
+
+Archivo ejecutado... 25-06-2022 10:56:00
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 25-06-2022 10:58:45
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 25-06-2022 10:58:58
+pruebasJSON_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF.pdf
+
+Archivo ejecutado... 25-06-2022 11:28:20
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 25-06-2022 11:42:04
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 25-06-2022 11:42:20
+pruebasJSON_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF.pdf
+
+Archivo ejecutado... 25-06-2022 12:16:58
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 25-06-2022 12:50:12
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 25-06-2022 12:50:19
+pruebasJSON_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF.pdf
+
+Archivo ejecutado... 25-06-2022 13:22:53
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 25-06-2022 13:22:56
+pruebasJSON_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF.pdf
+

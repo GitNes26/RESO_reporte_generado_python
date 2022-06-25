@@ -99,12 +99,12 @@ class SendEmail:
       tableTitle_list = pandas.unique(tableTitle_list).tolist()
       tableTitle_list.sort()
      
-      print("haciendo tabla de metas no cumplidas")
+      print("creando tabla de metas no cumplidas...")
       table = f"""
       <table class="content-table">
          <thead>
             <tr>
-               <th colspan="2" align="center">Tabla de registros que no cumplieron con la meta (35%)</th>
+               <th colspan="2" align="center">Tabla de registros que no cumplieron con la meta <i>( <i 35% en Promedio Preg)</i></th>
             </tr>
             <tr>
                <th>Etiqueta De Fila</th>

@@ -160,6 +160,8 @@ def GroupRegisterGroupedbyLactByFilter(table, register_list, groupby_list, group
          register = register_grouped
       
       for item in registers_groupedby_lact[lact]:
+         register.CowsPreg += item.CowsPreg
+         register.CowsAbort += item.CowsAbort
          register.SumaPreg += item.SumaPreg
          register.CuentaPreg2 += item.CuentaPreg2
          register.BredOpenSum += item.BredOpenSum
@@ -241,6 +243,8 @@ def GroupRegisterByFilter(table, register_list, groupby_list):
       register = RegisterTable()
       register.EtiquetaDeFila = groupby
       for item in registers_grouped[groupby]:
+         register.CowsPreg += item.CowsPreg
+         register.CowsAbort += item.CowsAbort
          register.SumaPreg += item.SumaPreg
          register.CuentaPreg2 += item.CuentaPreg2
          register.BredOpenSum += item.BredOpenSum
@@ -260,9 +264,17 @@ def GroupRegisterByFilter(table, register_list, groupby_list):
 def Totals(tables):
    """Calcular Totales de tabla"""
 
-   total_preg = 0
-   total_abort = 0
    for table in tables:
+      total_preg = 0
+      total_abort = 0
+      table.TotalPromedioPreg = 0
+      table.TotalSumaPreg = 0
+      table.TotalPromedioAbortRes = 0
+      table.TotalBredOpenSum = 0
+      table.TotalConceptAbortRate = 0
+      table.TotalBredUnk = 0
+      table.TotalCuentaPreg2 = 0
+
       for register in table.Registers:
          table.TotalSumaPreg += register.SumaPreg
          table.TotalCuentaPreg2 += register.CuentaPreg2
@@ -282,18 +294,19 @@ def AddTablesGroupbyLactFilterEv(grouped_registers, lact_list, ev_list):
    """Agregar registros a la tabla agrupados por LACT y filtrados por Ev"""
    # print('AddTablesGroupbyLactFilterEv():')
    tables = []
-   mas_de_un_ev = False
+   temporal_table = Table()
    groupby_lact_or_more = 3
    register_grouped = RegisterTable()
    register_grouped.EtiquetaDeFila = f'{groupby_lact_or_more}+'
    last_lact = lact_list[-1]
    last_env = ev_list[-1]
-
+   
    for ev in ev_list:
+      table = Table()
+
       mas_de_un_ev = False #Bandera para agrupar registros que corresponden a más de un filtro
 
       if ev == 1:
-         table = Table()
          table.TitleTable = f"Datos agrupados por Lact y filtrados por #Ev {ev}"            
          for lact in lact_list:
             groupby_lact = False
@@ -301,20 +314,8 @@ def AddTablesGroupbyLactFilterEv(grouped_registers, lact_list, ev_list):
                groupby_lact = True
             AddRegisterGroupedbyLactOnlyEv(table, grouped_registers, lact, ev, groupby_lact, register_grouped, last_lact)
          tables.append(table)
+         table = Table()
          register_grouped = RegisterTable()
-
-         table = Table()
-         temporal_table = Table()
-         continue
-      
-      
-      if 'table' in locals(): #Condicion para crear tabla en caso de que no haya entrado al evento 1
-         if len(table.Registers) == 0 and len(temporal_table.Registers) == 0:
-            table = Table()
-            temporal_table = Table()
-      else:
-         table = Table()
-         temporal_table = Table()
       
       mas_de_un_ev = True
       table.TitleTable = f"Datos agrupados por Lact y filtrados por #Ev 1+"
@@ -333,39 +334,25 @@ def AddTablesGroupbyBredReasFilterLact(grouped_registers, bredReas_list, lact_li
    """Agregar registros a la tabla agrupados por BredReas y filtrados por LACT"""
    # print('AddTablesGroupbyBredReasFilterLact():')
    tables = []
-   mas_de_un_ev = False
+   temporal_table = Table()
 
    for lact in lact_list:
+      table = Table()
       mas_de_un_ev = False
+
       if lact == 0:
-         table = Table()
          table.TitleTable = f"Datos agrupados por bredReas y filtrados por #Lact {lact}"            
          for bredReas in bredReas_list:
             AddRegisterOnlyEv(table, grouped_registers, bredReas, lact)
          tables.append(table)
-
-         table = Table()
-         temporal_table = Table()
          continue
       elif lact == 1:
-         table = Table()
          table.TitleTable = f"Datos agrupados por bredReas y filtrados por #Lact {lact}"            
          for bredReas in bredReas_list:
             AddRegisterOnlyEv(table, grouped_registers, bredReas, lact)
          tables.append(table)
-
-         table = Table()
-         temporal_table = Table()
          continue
-      else:
-         if 'table' in locals():
-            if len(table.Registers) == 0 and len(temporal_table.Registers) == 0:
-               table = Table()
-               temporal_table = Table()
-         else:
-            table = Table()
-            temporal_table = Table()
-         
+      else:         
          mas_de_un_ev = True
          table.TitleTable = f"Datos agrupados por bredReas y filtrados por #Lact 2+"            
          AddRegisterMuchEv(temporal_table, grouped_registers, bredReas_list, lact)
@@ -381,19 +368,18 @@ def AddTablesGroupbySireBullFilterLact(grouped_registers, sireBull_list, lact_li
    """Agregar registros a la tabla agrupados por SireBull y filtrados por LACT"""
    # print('AddTablesGroupbySireBullFilterLact():')
    tables = []
+   temporal_table = Table()
    mas_de_un_ev = False
 
    for lact in lact_list:
+      table = Table()
       mas_de_un_ev = False
+
       if lact == 0:
-         table = Table()
          table.TitleTable = f"Datos agrupados por sireBull y filtrados por #Lact {lact}"            
          for sireBull in sireBull_list:
             AddRegisterOnlyEv(table, grouped_registers, sireBull, lact)
          tables.append(table)
-
-         table = Table()
-         temporal_table = Table()
          continue
       if lact == 1:
          table = Table()
@@ -401,21 +387,10 @@ def AddTablesGroupbySireBullFilterLact(grouped_registers, sireBull_list, lact_li
          for sireBull in sireBull_list:
             AddRegisterOnlyEv(table, grouped_registers, sireBull, lact)
          tables.append(table)
-
-         table = Table()
-         temporal_table = Table()
          continue
-      else:
-         if 'table' in locals():
-            if len(table.Registers) == 0 and len(temporal_table.Registers) == 0:
-               table = Table()
-               temporal_table = Table()
-         else:
-            table = Table()
-            temporal_table = Table()
-         
+      else:         
          mas_de_un_ev = True
-         table.TitleTable = f"Datos agrupados por sireBull y filtrados por #Lact 1+"            
+         table.TitleTable = f"Datos agrupados por sireBull y filtrados por #Lact 2+"            
          AddRegisterMuchEv(temporal_table, grouped_registers, sireBull_list, lact)
 
    if mas_de_un_ev:
@@ -429,10 +404,13 @@ def AddTablesGroupbyEvSireStudCdFilterLact(grouped_registers, evSireStudCd_list,
    """Agregar registros a la tabla agrupados por EvSireStudCd y filtrados por LACT"""
    # print('AddTablesGroupbyEvSireStudCdFilterLact():')
    tables = []
+   temporal_table = Table()
    mas_de_un_ev = False
 
    for lact in lact_list:
+      table = Table()
       mas_de_un_ev = False
+
       if lact == 0:
          table = Table()
          table.TitleTable = f"Datos agrupados por evSireStudCd y filtrados por #Lact {lact}"            
@@ -449,21 +427,10 @@ def AddTablesGroupbyEvSireStudCdFilterLact(grouped_registers, evSireStudCd_list,
          for evSireStudCd in evSireStudCd_list:
             AddRegisterOnlyEv(table, grouped_registers, evSireStudCd, lact)
          tables.append(table)
-
-         table = Table()
-         temporal_table = Table()
          continue
-      else:
-         if 'table' in locals():
-            if len(table.Registers) == 0 and len(temporal_table.Registers) == 0:
-               table = Table()
-               temporal_table = Table()
-         else:
-            table = Table()
-            temporal_table = Table()
-         
+      else:         
          mas_de_un_ev = True
-         table.TitleTable = f"Datos agrupados por evSireStudCd y filtrados por #Lact 1+"            
+         table.TitleTable = f"Datos agrupados por evSireStudCd y filtrados por #Lact 2+"            
          AddRegisterMuchEv(temporal_table, grouped_registers, evSireStudCd_list, lact)
 
    if mas_de_un_ev:
@@ -477,39 +444,26 @@ def AddTablesGroupbyTechFilterLact(grouped_registers, tech_list, lact_list):
    """Agregar registros a la tabla agrupados por Tech y filtrados por LACT"""
    # print('AddTablesGroupbyTechFilterLact():')
    tables = []
+   temporal_table = Table()
    mas_de_un_ev = False
 
    for lact in lact_list:
+      table = Table()
       mas_de_un_ev = False
+
       if lact == 0:
-         table = Table()
          table.TitleTable = f"Datos agrupados por tech y filtrados por #Lact {lact}"            
          for tech in tech_list:
             AddRegisterOnlyEv(table, grouped_registers, tech, lact)
          tables.append(table)
-
-         table = Table()
-         temporal_table = Table()
          continue
       elif lact == 1:
-         table = Table()
          table.TitleTable = f"Datos agrupados por tech y filtrados por #Lact {lact}"            
          for tech in tech_list:
             AddRegisterOnlyEv(table, grouped_registers, tech, lact)
          tables.append(table)
-
-         table = Table()
-         temporal_table = Table()
          continue
-      else:
-         if 'table' in locals():
-            if len(table.Registers) == 0 and len(temporal_table.Registers) == 0:
-               table = Table()
-               temporal_table = Table()
-         else:
-            table = Table()
-            temporal_table = Table()
-         
+      else:         
          mas_de_un_ev = True
          table.TitleTable = f"Datos agrupados por tech y filtrados por #Lact 2+"            
          AddRegisterMuchEv(temporal_table, grouped_registers, tech_list, lact)
