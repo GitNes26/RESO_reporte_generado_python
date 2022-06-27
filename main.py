@@ -42,8 +42,8 @@ class CreateReport:
       if file_type == 'CSV':
          self.GetDataCSV(path_file)
       elif file_type == 'JSON':
-         self.GetDataCsvJson(path_file)
-         # self.GetDataJson(path_file)
+         self.GetDataJson(path_file)
+         # self.GetDataCsvJson(path_file)
       self.Process(path_file, output_filename, output_path_file)
 
    def GetDataJson(self, path_file):
@@ -55,31 +55,31 @@ class CreateReport:
             register = Register()
             register.NoPreg = bool(False if row.get('=BredPreg') in (False,NULL,"",None) else True)
             register.AbortRes = bool(False if row.get('=if(BredAbort,1,0)') in (False,NULL,"",None) else True)
-            register.SireBull = row.get('=evsireNAAB')
-            register.LACT = int(0 if row.get('LACT') in ("",NULL,None) else row.get('LACT'))
-            register.Ev_L = int(0 if row.get('Ev#L') in ("",NULL,None) else row.get('Ev#L'))
-            register.NoEv = int(0 if row.get('#Ev') in ("",NULL,None) else row.get('#Ev'))
-            register.Date = row.get('Date')
-            register.EvGap = row.get('EvGap')
-            register.Tech = row.get('Tech')
-            register.Pen = int(0 if row.get('Pen') in ("",NULL,None) else row.get('Pen'))
-            register.bred_sexed = row.get('bred.sexed')
-            register.BredReas = row.get('BredReas')
-            register.DIM_E = int(0 if row.get('DIM@E') in ("",NULL,None) else row.get('DIM@E'))
-            register.AnId = int(0 if row.get('AnId') in ("",NULL,None) else row.get('AnId'))
-            register.FarmLoc = row.get('FarmLoc')
-            register.AnOwner = row.get('AnOwner')
-            register.BRD = row.get('BRD')
-            register.Age_da = int(0 if row.get('Age(da)') in ("",NULL,None) else row.get('Age(da)'))
-            register.Other2ID = int(0 if row.get('Other2ID') in ("",NULL,None) else row.get('Other2ID'))
-            register.Other5ID = int(0 if row.get('Other5ID') in ("",NULL,None) else row.get('Other5ID'))
+            register.SireBull = str('' if row.get('=evsireNAAB') in (NULL,None) else row.get('=evsireNAAB'))
+            register.LACT = int(0 if row.get('=@date(LACT)') in ("",NULL,None) else row.get('=@date(LACT)'))
+            # register.Ev_L = int(0 if row.get('Ev#L') in ("",NULL,None) else row.get('Ev#L'))
+            register.NoEv = int(0 if row.get('=evnum') in ("",NULL,None) else row.get('=evnum'))
+            # register.Date = str('' if row.get('Date') in (NULL,None) else row.get('Date'))
+            # register.EvGap = str('' if row.get('EvGap') in (NULL,None) else row.get('EvGap'))
+            register.Tech = str('' if row.get('Tech') in (NULL,None) else row.get('Tech'))
+            # register.Pen = int(0 if row.get('Pen') in ("",NULL,None) else row.get('Pen'))
+            # register.bred_sexed = str('' if row.get('bred.sexed') in (NULL,None) else row.get('bred.sexed'))
+            register.BredReas = str('' if row.get('BredReas') in (NULL,None) else row.get('BredReas'))
+            # register.DIM_E = int(0 if row.get('DIM@E') in ("",NULL,None) else row.get('DIM@E'))
+            # register.AnId = int(0 if row.get('AnId') in ("",NULL,None) else row.get('AnId'))
+            # register.FarmLoc = str('' if row.get('FarmLoc') in (NULL,None) else row.get('FarmLoc'))
+            # register.AnOwner = str('' if row.get('AnOwner') in (NULL,None) else row.get('AnOwner'))
+            # register.BRD = str('' if row.get('BRD') in (NULL,None) else row.get('BRD'))
+            # register.Age_da = int(0 if row.get('Age(da)') in ("",NULL,None) else row.get('Age(da)'))
+            # register.Other2ID = int(0 if row.get('Other2ID') in ("",NULL,None) else row.get('Other2ID'))
+            # register.Other5ID = int(0 if row.get('Other5ID') in ("",NULL,None) else row.get('Other5ID'))
             register.ConceptRate = int(0 if row.get('ConceptRate') in ("",NULL,None) else row.get('ConceptRate'))
             register.BredUnk = bool(False if row.get('BredUnk') in (False,NULL,None,"",None) else True)
-            register.EvSireBreed = row.get('EvSireBreed')
+            register.EvSireBreed = str('' if row.get('EvSireBreed') in (NULL,None) else row.get('EvSireBreed'))
             register.EvSireStudCd = int(0 if row.get('EvSireStudCd') in ("",NULL,None) else row.get('EvSireStudCd'))
-            register.evWeek = row.get('evWeek')
-            register.Age1BLT = int(0 if row.get('Age1BLT') in ("",NULL,None) else row.get('Age1BLT'))
-            register.Total = row.get('Total')
+            # register.evWeek = str('' if row.get('evWeek') in (NULL,None) else row.get('evWeek'))
+            # register.Age1BLT = int(0 if row.get('Age1BLT') in ("",NULL,None) else row.get('Age1BLT'))
+            # register.Total = str('' if row.get('Total') in (NULL,None) else row.get('Total'))
                
             self.listRegister.append(register)
       pass
@@ -203,7 +203,7 @@ class CreateReport:
          dataRegisterT.Abort = item.AbortRes
          dataRegisterT.Lact = item.LACT
          dataRegisterT.BredUnk = item.BredUnk
-         dataRegisterT.Ev_L = item.Ev_L
+         # dataRegisterT.Ev_L = item.Ev_L
          dataRegisterT.NoEv = item.NoEv
          
          registers_groupedby_lact[item.LACT, item.NoEv].append(dataRegisterT)
@@ -243,7 +243,7 @@ class CreateReport:
       self.GeneratePDF(tables,tableEmail)
       tables = AddTablesGroupbyTechFilterLact(registers_groupedby_tech, tech_list, lact_list)
       self.GeneratePDF(tables,tableEmail)
-      SendEmail(tableEmail)                  
+      SendEmail(tableEmail)
    
    def GeneratePDF(self, tables, tableEmail):
       column_size = 205 / 8 #Ancho de tabla (200) entre Numero de columnas (7)
@@ -293,8 +293,5 @@ class CreateReport:
 
 if __name__ == '__main__':
    CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebaCompleta.csv', 'pruebasCSV_PDF', NULL)
-   CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/datosJSON.json', 'pruebasJSON_PDF', NULL)
-   # CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/DPN_CR_Download_Template.sync.json', 'pruebas_dpnJSON_PDF', NULL)
-   # report1 = CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebaCompleta.csv', 'pruebasPDF', NULL)
-   # report1 = CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/prueba.csv', 'pruebasPDF_sinRutaDestino', NULL)
-   # report2 = CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/prueba.csv', 'pruebasPDF_conRutaDestino', 'D:/RESO_SISTEMAS/ProyectoPython/')
+   # CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/datosJSON.json', 'pruebasCsvJSON_PDF_sinRutaDestino', NULL)
+   CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/DPN_CR_Download_Template.sync.json', 'pruebasJSON_PDF_conRutaDestino', 'D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/')

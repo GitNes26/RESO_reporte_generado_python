@@ -94,3 +94,87 @@ pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documen
 Archivo ejecutado... 25-06-2022 13:22:56
 pruebasJSON_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF.pdf
 
+Archivo ejecutado... 27-06-2022 11:33:33
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 11:33:35
+pruebasJSON_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 11:39:11
+Archivo ejecutado... 27-06-2022 11:40:55
+pruebasJSON_PDF_sinRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_sinRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 11:41:31
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 11:41:32
+pruebasJSON_PDF_sinRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_sinRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 11:41:34
+Archivo ejecutado... 27-06-2022 11:42:49
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 11:42:50
+pruebasJSON_PDF_sinRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_sinRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 11:42:52
+pruebasJSON_PDF_connRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_connRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 11:43:50
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 11:43:52
+pruebasJSON_PDF_sinRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_sinRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 11:43:54
+pruebasJSON_PDF_connRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/pruebasJSON_PDF_connRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 11:47:59
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 11:49:29
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 11:49:30
+pruebasJSON_PDF_sinRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_sinRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 11:49:32
+Archivo ejecutado... 27-06-2022 11:51:06
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 11:51:25
+pruebasJSON_PDF_sinRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_sinRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 12:02:55
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 12:02:57
+pruebasJSON_PDF_sinRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_sinRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 12:02:59
+pruebasJSON_PDF_connRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/pruebasJSON_PDF_connRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 12:03:54
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 12:04:07
+pruebasJSON_PDF_sinRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_sinRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 12:14:10
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 12:14:12
+pruebasJSON_PDF_conRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_conRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 12:19:35
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 12:19:35
+pruebasJSON_PDF_conRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_conRutaDestino.pdf
+
+Archivo ejecutado... 27-06-2022 12:26:18
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf
+
+Archivo ejecutado... 27-06-2022 12:26:20
+pruebasJSON_PDF_conRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_conRutaDestino.pdf
+
