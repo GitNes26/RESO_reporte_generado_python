@@ -12,7 +12,8 @@ import pandas
 
 
 class SendEmail:
-   def __init__(self, data):
+   def __init__(self, data, path_file):
+      self.path_file = path_file
       content = self.CreateTable(data)
       self.MailBody(content)
       pass
@@ -48,24 +49,24 @@ class SendEmail:
             msg.attach(MIMEText(body, 'html'))
 
             #region APARTADO PARA ENVIAR ARCHIVOS
-            # # open the file to be sent
-            # filename = "Download Pdf File From Here.pdf"
-            # attachment = open("output.pdf", "rb")
+            # open the file to be sent
+            filename = "Download Pdf File From Here.pdf"
+            attachment = open(self.path_file, "rb")
 
-            # # instance of MIMEBase and named as p
-            # p = MIMEBase('application', 'octet-stream')
+            # instance of MIMEBase and named as p
+            p = MIMEBase('application', 'octet-stream')
 
-            # # To change the payload into encoded form
-            # p.set_payload((attachment).read())
+            # To change the payload into encoded form
+            p.set_payload((attachment).read())
 
-            # # encode into base64
-            # encoders.encode_base64(p)
+            # encode into base64
+            encoders.encode_base64(p)
 
-            # p.add_header('Content-Disposition',
-            #              "attachment; filename= %s" % filename)
+            p.add_header('Content-Disposition',
+                         "attachment; filename= %s" % filename)
 
-            # # attach the instance 'p' to instance 'msg'
-            # msg.attach(p)
+            # attach the instance 'p' to instance 'msg'
+            msg.attach(p)
             #endregion
 
             # creates SMTP session
@@ -461,5 +462,5 @@ class SendEmail:
       pass
 
 
-if __name__ == '__main__':
-   email = SendEmail("hola mundo")
+# if __name__ == '__main__':
+#    email = SendEmail("hola mundo","path_file")

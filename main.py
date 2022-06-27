@@ -166,23 +166,26 @@ class CreateReport:
 
 
    def Process(self, path_file, output_filename, output_path_file):
+      tableEmail = TableEmail()
+
       # Agregar pagina al PDF
       self.pdf.alias_nb_pages()
       self.pdf.add_page()
-      self.GroupBy()
+      self.GroupBy(tableEmail)
       
       if output_path_file is NULL:
          current_filename = path_file.split('/')[-1]
          output_path_file = path_file.replace(current_filename,'')
 
-      output_path_file += output_filename
-      self.pdf.output(f'{output_path_file}.pdf', 'F')
+      output_path_file += f"{output_filename}.pdf"
+      self.pdf.output(f'{output_path_file}', 'F')
          
       print(f'ARCHIVO {output_filename}.pdf CREADO CREADO en --> {output_path_file}.pdf\n')
       self.log_file.write(f"{output_filename}.pdf CREADO en --> {output_path_file}.pdf\n\n")
       self.log_file.close()     
+      SendEmail(tableEmail, output_path_file)
       
-   def GroupBy(self):
+   def GroupBy(self, tableEmail):
       # print('AgruparPorLactancia():')
       ev_list = []
       lact_list = []
@@ -232,7 +235,6 @@ class CreateReport:
       tech_list = pandas.unique(tech_list).tolist()
       tech_list.sort()
       
-      tableEmail = TableEmail()
       tables = AddTablesGroupbyLactFilterEv(registers_groupedby_lact, lact_list, ev_list)
       self.GeneratePDF(tables,tableEmail)
       tables = AddTablesGroupbyBredReasFilterLact(registers_groupedby_bredReas, bredReas_list, lact_list)
@@ -243,7 +245,6 @@ class CreateReport:
       self.GeneratePDF(tables,tableEmail)
       tables = AddTablesGroupbyTechFilterLact(registers_groupedby_tech, tech_list, lact_list)
       self.GeneratePDF(tables,tableEmail)
-      SendEmail(tableEmail)
    
    def GeneratePDF(self, tables, tableEmail):
       column_size = 205 / 8 #Ancho de tabla (200) entre Numero de columnas (7)
@@ -292,6 +293,6 @@ class CreateReport:
        
 
 if __name__ == '__main__':
-   CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebaCompleta.csv', 'pruebasCSV_PDF', NULL)
+   # CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebaCompleta.csv', 'pruebasCSV_PDF', NULL)
    # CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/datosJSON.json', 'pruebasCsvJSON_PDF_sinRutaDestino', NULL)
    CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/DPN_CR_Download_Template.sync.json', 'pruebasJSON_PDF_conRutaDestino', 'D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/')

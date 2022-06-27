@@ -140,8 +140,6 @@ def AddRegisterGroupedbyLactMuchEv(table, register_list, groupby_list, filter, g
       
       if groupby_lact is False and register.CuentaPreg2 > 0:
          table.Registers.append(register)
-      # if groupby_lact is True and lact==last_lact and filter==last_env and register.CuentaPreg2 > 0:
-      #    table.Registers.append(register)
 
 def GroupRegisterGroupedbyLactByFilter(table, register_list, groupby_list, groupby_lact, register_grouped, last_lact, groupby_lact_or_more):
    """Agrupar los registros por filtro( con más de un filtro) y Caluclar los campos de la tabla (para la tabla agrupados por Lact)"""

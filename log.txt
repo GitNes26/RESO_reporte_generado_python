@@ -178,3 +178,12 @@ pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documen
 Archivo ejecutado... 27-06-2022 12:26:20
 pruebasJSON_PDF_conRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_conRutaDestino.pdf
 
+Archivo ejecutado... 27-06-2022 13:53:33
+pruebasCSV_PDF.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasCSV_PDF.pdf.pdf
+
+Archivo ejecutado... 27-06-2022 13:56:29
+pruebasJSON_PDF_conRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_conRutaDestino.pdf.pdf
+
+Archivo ejecutado... 27-06-2022 13:58:54
+pruebasJSON_PDF_conRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_conRutaDestino.pdf.pdf
+
