@@ -30,9 +30,9 @@ class RegisterTable:
       self.EtiquetaDeFila = 0
       """Lactancias"""
       self.PromedioPreg = 0
-      """Promediar las vacas preñadas según lactancia, pero que no abortaron"""
+      """Promediar las vacas preñadas según lactancia entre el total de vacas"""
       self.SumaPreg = 0
-      """Sumar las vacas preñadas según lactancia, pero que no abortaron"""
+      """Sumar las vacas preñadas según lactancia"""
       self.PromedioAbortRes = 0
       """Promediar las vacas preñadas según lactancia, pero que abortaron"""
       self.BredOpenSum = 0
@@ -45,8 +45,6 @@ class RegisterTable:
       """Sumar las vacas preñadas según lactancia, no importa si abortaron (total de vacas)"""
 
       #variables extras
-      self.CowsPreg = 0 
-      """Suma de vacas preñadas"""
       self.CowsAbort= 0 
       """Suma de vacas que abortaton"""
 
@@ -85,10 +83,8 @@ def AddRegisterGroupedbyLactOnlyEv(table, register_list, groupby, filter, groupb
       register = register_grouped
    
    for item in register_list[groupby,filter]:
-      if item.Preg==True and item.Abort==False:
-         register.SumaPreg += 1
       if item.Preg==True:
-         register.CowsPreg += 1
+         register.SumaPreg += 1
       if item.Abort==True:
          register.CowsAbort += 1
       if item.BredUnk==True:
@@ -96,10 +92,10 @@ def AddRegisterGroupedbyLactOnlyEv(table, register_list, groupby, filter, groupb
       register.CuentaPreg2 += 1
       
    if register.CuentaPreg2 > 0:
-      register.BredOpenSum = register.CuentaPreg2 - register.CowsPreg
+      register.BredOpenSum = register.CuentaPreg2 - register.SumaPreg
       register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
       register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
-      register.ConceptAbortRate = Mean((register.CowsPreg-register.CowsAbort), register.CuentaPreg2)
+      register.ConceptAbortRate = Mean((register.SumaPreg-register.CowsAbort), register.CuentaPreg2)
    
    if groupby_lact is False and register.CuentaPreg2 > 0:
       table.Registers.append(register)
@@ -122,13 +118,10 @@ def AddRegisterGroupedbyLactMuchEv(table, register_list, groupby_list, filter, g
 
       if lact <= groupby_lact_or_more:
          register.CowsAbort= 0
-         register.CowsPreg= 0
 
       for item in register_list[lact,filter]:
-         if item.Preg==True and item.Abort==False:
-            register.SumaPreg += 1
          if item.Preg==True:
-            register.CowsPreg += 1
+            register.SumaPreg += 1
          if item.Abort==True:
             register.CowsAbort += 1
          if item.BredUnk==True:
@@ -136,7 +129,7 @@ def AddRegisterGroupedbyLactMuchEv(table, register_list, groupby_list, filter, g
          register.CuentaPreg2 += 1
          
       if register.CuentaPreg2 > 0:
-         register.BredOpenSum = register.CuentaPreg2 - register.CowsPreg
+         register.BredOpenSum = register.CuentaPreg2 - register.SumaPreg
       
       if groupby_lact is False and register.CuentaPreg2 > 0:
          table.Registers.append(register)
@@ -158,7 +151,6 @@ def GroupRegisterGroupedbyLactByFilter(table, register_list, groupby_list, group
          register = register_grouped
       
       for item in registers_groupedby_lact[lact]:
-         register.CowsPreg += item.CowsPreg
          register.CowsAbort += item.CowsAbort
          register.SumaPreg += item.SumaPreg
          register.CuentaPreg2 += item.CuentaPreg2
@@ -171,7 +163,7 @@ def GroupRegisterGroupedbyLactByFilter(table, register_list, groupby_list, group
       if register.CuentaPreg2 > 0:
          register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
          register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
-         register.ConceptAbortRate = Mean((register.CowsPreg-register.CowsAbort), register.CuentaPreg2)
+         register.ConceptAbortRate = Mean((register.SumaPreg-register.CowsAbort), register.CuentaPreg2)
 
       if groupby_lact is False and register.CuentaPreg2 > 0:
          table.Registers.append(register)
@@ -188,10 +180,8 @@ def AddRegisterOnlyEv(table, register_list, groupby, filter):
    register.EtiquetaDeFila = groupby
    
    for item in register_list[groupby,filter]:
-      if item.Preg==True and item.Abort==False:
-         register.SumaPreg += 1
       if item.Preg==True:
-         register.CowsPreg += 1
+         register.SumaPreg += 1
       if item.Abort==True:
          register.CowsAbort += 1
       if item.BredUnk==True:
@@ -199,8 +189,8 @@ def AddRegisterOnlyEv(table, register_list, groupby, filter):
       register.CuentaPreg2 += 1
       
    if register.CuentaPreg2 > 0:
-      register.BredOpenSum = register.CuentaPreg2 - register.CowsPreg
-      register.ConceptAbortRate = Mean((register.CowsPreg-register.CowsAbort), register.CuentaPreg2)
+      register.BredOpenSum = register.CuentaPreg2 - register.SumaPreg
+      register.ConceptAbortRate = Mean((register.SumaPreg-register.CowsAbort), register.CuentaPreg2)
       register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
       register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
    
@@ -214,13 +204,10 @@ def AddRegisterMuchEv(table, register_list, groupby_list, filter):
       register = RegisterTable()
       register.EtiquetaDeFila = groupby
       register.CowsAbort= 0
-      register.CowsPreg= 0
 
       for item in register_list[groupby,filter]:
-         if item.Preg==True and item.Abort==False:
-            register.SumaPreg += 1
          if item.Preg==True:
-            register.CowsPreg += 1
+            register.SumaPreg += 1
          if item.Abort==True:
             register.CowsAbort += 1
          if item.BredUnk==True:
@@ -241,7 +228,6 @@ def GroupRegisterByFilter(table, register_list, groupby_list):
       register = RegisterTable()
       register.EtiquetaDeFila = groupby
       for item in registers_grouped[groupby]:
-         register.CowsPreg += item.CowsPreg
          register.CowsAbort += item.CowsAbort
          register.SumaPreg += item.SumaPreg
          register.CuentaPreg2 += item.CuentaPreg2
@@ -254,7 +240,7 @@ def GroupRegisterByFilter(table, register_list, groupby_list):
       if register.CuentaPreg2 > 0:
          register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
          register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
-         register.ConceptAbortRate = Mean((register.CowsPreg-register.CowsAbort), register.CuentaPreg2)
+         register.ConceptAbortRate = Mean((register.SumaPreg-register.CowsAbort), register.CuentaPreg2)
       
       if register.CuentaPreg2 > 0:
          table.Registers.append(register)
@@ -263,7 +249,6 @@ def Totals(tables):
    """Calcular Totales de tabla"""
 
    for table in tables:
-      total_preg = 0
       total_abort = 0
       table.TotalPromedioPreg = 0
       table.TotalSumaPreg = 0
@@ -278,13 +263,12 @@ def Totals(tables):
          table.TotalCuentaPreg2 += register.CuentaPreg2
          table.TotalBredOpenSum += register.BredOpenSum
          table.TotalBredUnk += register.BredUnk
-         total_preg += register.CowsPreg
          total_abort += register.CowsAbort
 
       if table.TotalCuentaPreg2 > 0:
          table.TotalPromedioPreg = Mean(table.TotalSumaPreg, table.TotalCuentaPreg2)
          table.TotalPromedioAbortRes = Mean(total_abort, table.TotalCuentaPreg2)
-         table.TotalConceptAbortRate = Mean((total_preg - total_abort), table.TotalCuentaPreg2)
+         table.TotalConceptAbortRate = Mean((table.TotalSumaPreg - total_abort), table.TotalCuentaPreg2)
 
       
 

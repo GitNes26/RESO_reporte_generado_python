@@ -187,3 +187,6 @@ pruebasJSON_PDF_conRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/Proyec
 Archivo ejecutado... 27-06-2022 13:58:54
 pruebasJSON_PDF_conRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_conRutaDestino.pdf.pdf
 
+Archivo ejecutado... 28-06-2022 09:40:52
+pruebasJSON_PDF_conRutaDestino.pdf CREADO en --> D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebasJSON_PDF_conRutaDestino.pdf.pdf
+
