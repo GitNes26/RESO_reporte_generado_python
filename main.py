@@ -295,4 +295,4 @@ class CreateReport:
 if __name__ == '__main__':
    # CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebaCompleta.csv', 'pruebasCSV_PDF', NULL)
    # CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/datosJSON.json', 'pruebasCsvJSON_PDF_sinRutaDestino', NULL)
-   CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/DPN_CR_Download_Template.sync.json', 'pruebasJSON_PDF_conRutaDestino', 'D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/')
+   CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/DPN_CR_Download_Template JULIO.sync.json', 'Reporte_12072022', 'D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/')

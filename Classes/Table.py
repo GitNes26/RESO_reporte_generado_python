@@ -214,8 +214,10 @@ def AddRegisterMuchEv(table, register_list, groupby_list, filter):
             register.BredUnk += 1
          register.CuentaPreg2 += 1
 
-   if register.CuentaPreg2 > 0:
-      table.Registers.append(register)
+      if register.CuentaPreg2 > 0:
+         register.BredOpenSum = register.CuentaPreg2 - register.SumaPreg
+      if register.CuentaPreg2 > 0:
+         table.Registers.append(register)
    
 def GroupRegisterByFilter(table, register_list, groupby_list):
    """Agrupar los registros por filtro( con más de un filtro) y Caluclar los campos de la tabla"""
@@ -447,7 +449,7 @@ def AddTablesGroupbyTechFilterLact(grouped_registers, tech_list, lact_list):
          continue
       else:         
          mas_de_un_ev = True
-         table.TitleTable = f"Datos agrupados por tech y filtrados por #Lact 2+"            
+         table.TitleTable = f"Datos agrupados por tech y filtrados por #Lact 2+"
          AddRegisterMuchEv(temporal_table, grouped_registers, tech_list, lact)
 
    if mas_de_un_ev:
