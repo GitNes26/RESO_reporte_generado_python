@@ -93,7 +93,7 @@ def AddRegisterGroupedbyLactOnlyEv(table, register_list, groupby, filter, groupb
       
    if register.CuentaPreg2 > 0:
       register.BredOpenSum = register.CuentaPreg2 - register.SumaPreg
-      register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
+      register.PromedioPreg = Mean(register.SumaPreg, (register.CuentaPreg2-register.BredUnk))
       register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
       register.ConceptAbortRate = Mean((register.SumaPreg-register.CowsAbort), register.CuentaPreg2)
    
@@ -161,7 +161,7 @@ def GroupRegisterGroupedbyLactByFilter(table, register_list, groupby_list, group
          register.PromedioAbortRes += item.PromedioAbortRes
 
       if register.CuentaPreg2 > 0:
-         register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
+         register.PromedioPreg = Mean(register.SumaPreg, (register.CuentaPreg2-register.BredUnk))
          register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
          register.ConceptAbortRate = Mean((register.SumaPreg-register.CowsAbort), register.CuentaPreg2)
 
@@ -191,7 +191,7 @@ def AddRegisterOnlyEv(table, register_list, groupby, filter):
    if register.CuentaPreg2 > 0:
       register.BredOpenSum = register.CuentaPreg2 - register.SumaPreg
       register.ConceptAbortRate = Mean((register.SumaPreg-register.CowsAbort), register.CuentaPreg2)
-      register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
+      register.PromedioPreg = Mean(register.SumaPreg, (register.CuentaPreg2-register.BredUnk))
       register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
    
    if register.CuentaPreg2 > 0:
@@ -240,7 +240,7 @@ def GroupRegisterByFilter(table, register_list, groupby_list):
          register.PromedioAbortRes += item.PromedioAbortRes
          
       if register.CuentaPreg2 > 0:
-         register.PromedioPreg = Mean(register.SumaPreg, register.CuentaPreg2)
+         register.PromedioPreg = Mean(register.SumaPreg, (register.CuentaPreg2-register.BredUnk))
          register.PromedioAbortRes = Mean(register.CowsAbort, register.CuentaPreg2)
          register.ConceptAbortRate = Mean((register.SumaPreg-register.CowsAbort), register.CuentaPreg2)
       
@@ -268,7 +268,7 @@ def Totals(tables):
          total_abort += register.CowsAbort
 
       if table.TotalCuentaPreg2 > 0:
-         table.TotalPromedioPreg = Mean(table.TotalSumaPreg, table.TotalCuentaPreg2)
+         table.TotalPromedioPreg = Mean(table.TotalSumaPreg, (table.TotalCuentaPreg2-table.TotalBredUnk))
          table.TotalPromedioAbortRes = Mean(total_abort, table.TotalCuentaPreg2)
          table.TotalConceptAbortRate = Mean((table.TotalSumaPreg - total_abort), table.TotalCuentaPreg2)
 

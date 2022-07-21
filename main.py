@@ -183,7 +183,7 @@ class CreateReport:
       print(f'ARCHIVO {output_filename}.pdf CREADO CREADO en --> {output_path_file}.pdf\n')
       self.log_file.write(f"{output_filename}.pdf CREADO en --> {output_path_file}.pdf\n\n")
       self.log_file.close()     
-      SendEmail(tableEmail, output_path_file)
+      # SendEmail(tableEmail, output_path_file)
       
    def GroupBy(self, tableEmail):
       # print('AgruparPorLactancia():')
@@ -248,7 +248,7 @@ class CreateReport:
    
    def GeneratePDF(self, tables, tableEmail):
       column_size = 205 / 8 #Ancho de tabla (200) entre Numero de columnas (7)
-      meta = 35 # meta 
+      meta = 35 # meta
       for table in tables:
          self.pdf.TableHeader(table.TitleTable)
          self.pdf.TitleColumn(table.Column1Name,column_size,'R')
@@ -295,4 +295,5 @@ class CreateReport:
 if __name__ == '__main__':
    # CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/pruebaCompleta.csv', 'pruebasCSV_PDF', NULL)
    # CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/datosJSON.json', 'pruebasCsvJSON_PDF_sinRutaDestino', NULL)
-   CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/DPN_CR_Download_Template JULIO.sync.json', 'Reporte_12072022', 'D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/')
+   # CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/DPN_CR_Download_Template JULIO.sync.json', f"Reporte_{moment.now().format('YYYYMMDDHHMMSS')}", 'D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/')
+   CreateReport('D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/DPN_CR_Download_Template.sync.json', f"Reporte_{moment.now().format('YYYYMMDDHHMMSS')}", 'D:/TRABAJO/RESO_SISTEMAS/ProyectoPython/Documents/')
